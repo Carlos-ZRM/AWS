@@ -26,13 +26,13 @@
 -  Integración del código en la apliacion
 - Despliegue de aplicaciones 
 
-## 6.  
+## 6.  Procedimientos 
 
 
 
  Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NzYzMjM1OSwtNTkyNTMwNzY0LDEwOT
-Q1NjE4MSwtMTk0OTcyNjMxOSwyMDIzNDY3NzE3LC04NzUwMzcy
-MjQsMTYyMjc1MDg4OSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE4MTIxMjAwNjYsLTU5MjUzMDc2NCwxMD
+k0NTYxODEsLTE5NDk3MjYzMTksMjAyMzQ2NzcxNywtODc1MDM3
+MjI0LDE2MjI3NTA4ODksNzMwOTk4MTE2XX0=
 -->
