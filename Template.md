@@ -41,11 +41,13 @@
 -  Contactar al personal necesario 
 - Notificiar a los usuarios del sistema
 ### Cumple la siguiente lista
- 
+- Determine las aplicaciones que se ejecutarán y en qué secuencia.
+-  Tome copias del sistema y la documentación operativa y los manuales de procedimientos.
+- 
 
  Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNzAxMzEyMSwtMTM4MTAzMjE3NCwxOD
+eyJoaXN0b3J5IjpbMTI3NzMzMzEwNiwtMTM4MTAzMjE3NCwxOD
 QzODU0NDE4LDEyMzIyNzA5NDYsLTU5MjUzMDc2NCwxMDk0NTYx
 ODEsLTE5NDk3MjYzMTksMjAyMzQ2NzcxNywtODc1MDM3MjI0LD
 E2MjI3NTA4ODksNzMwOTk4MTE2XX0=
