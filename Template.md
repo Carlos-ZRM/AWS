@@ -1,6 +1,6 @@
 # Template
 ## 1.  Metas
-## Personal
+## 2 Personal
 
 |Personal que procesa Datos|
 |---------------------|
@@ -9,7 +9,7 @@
 |------|-----------|--------|----------|
 |Carlos Reyes| Becario infra|--------|----------|
 
-## Aplicaciones
+## 3 Aplicaciones
 | Inventario de aplicaciones | 
 |-----------------------------|
 
@@ -17,9 +17,10 @@
 |-----|-----|-----|-------|---|
 |Jagermeister|No|QA|Juan carlos|Horario laboral |
 
-
+## 4 Inventario de 
  Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDk3MjYzMTksMjAyMzQ2NzcxNywtOD
-c1MDM3MjI0LDE2MjI3NTA4ODksNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE0NTU3NDE0MDAsLTE5NDk3MjYzMTksMj
+AyMzQ2NzcxNywtODc1MDM3MjI0LDE2MjI3NTA4ODksNzMwOTk4
+MTE2XX0=
 -->
