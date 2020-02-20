@@ -43,12 +43,12 @@
 ### Cumple la siguiente lista
 - Determine las aplicaciones que se ejecutarán y en qué secuencia.
 -  Tome copias del sistema y la documentación operativa y los manuales de procedimientos.
-- 
+-  Asegúrese de que todo el personal involucrado conozca sus tareas.
 
  Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NzMzMzEwNiwtMTM4MTAzMjE3NCwxOD
-QzODU0NDE4LDEyMzIyNzA5NDYsLTU5MjUzMDc2NCwxMDk0NTYx
-ODEsLTE5NDk3MjYzMTksMjAyMzQ2NzcxNywtODc1MDM3MjI0LD
-E2MjI3NTA4ODksNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMzc1MTE1NDY0LC0xMzgxMDMyMTc0LDE4ND
+M4NTQ0MTgsMTIzMjI3MDk0NiwtNTkyNTMwNzY0LDEwOTQ1NjE4
+MSwtMTk0OTcyNjMxOSwyMDIzNDY3NzE3LC04NzUwMzcyMjQsMT
+YyMjc1MDg4OSw3MzA5OTgxMTZdfQ==
 -->
