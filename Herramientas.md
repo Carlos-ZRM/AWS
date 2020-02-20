@@ -16,8 +16,9 @@
  
 
 ## Clonae vs Templeate recursos
-
+-
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwOTE0MTUzMSw0NDIyMzE4MTJdfQ==
+eyJoaXN0b3J5IjpbLTkwMTU0OTQzNiwxMzA5MTQxNTMxLDQ0Mj
+IzMTgxMl19
 -->
