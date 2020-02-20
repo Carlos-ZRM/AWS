@@ -12,11 +12,12 @@
 - Controlar el despliegue de los proyectos 	
 	- ¿Cómo se versionaran los proyectos?
 	- Modificar el proceso de despliegue 
- ¿Qué ?
+ ¿Qué proyectos se modifican más?
+ 
 
-## Clonar recursos
+## Clonae vs Templeate recursos
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg1NTE2MTU5LDQ0MjIzMTgxMl19
+eyJoaXN0b3J5IjpbMTMwOTE0MTUzMSw0NDIyMzE4MTJdfQ==
 -->
