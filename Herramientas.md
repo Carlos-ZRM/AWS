@@ -17,10 +17,10 @@
 
 ## Clonae vs Templeate recursos
 - AMiS AWS
-- snapshoots
 -  Golden amis
+- Data Lifecycle Manager (snapshot)
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0OTc4NzI5NiwxMzA5MTQxNTMxLDQ0Mj
-IzMTgxMl19
+eyJoaXN0b3J5IjpbNTcwNTQxNjIsMTE0OTc4NzI5NiwxMzA5MT
+QxNTMxLDQ0MjIzMTgxMl19
 -->
