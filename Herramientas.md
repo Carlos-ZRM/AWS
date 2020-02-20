@@ -16,9 +16,11 @@
  
 
 ## Clonae vs Templeate recursos
--
+- AMiS AWS
+- snapshoots
+-  Golden amis
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMTU0OTQzNiwxMzA5MTQxNTMxLDQ0Mj
+eyJoaXN0b3J5IjpbMTE0OTc4NzI5NiwxMzA5MTQxNTMxLDQ0Mj
 IzMTgxMl19
 -->
