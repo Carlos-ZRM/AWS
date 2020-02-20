@@ -29,12 +29,13 @@
 ## 6.  Procedimientos 
 - Respuesta a emergencias
 - Procedimientos de backup 
+- Re
 
 
 
  Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDk0MjAzOCwtNTkyNTMwNzY0LDEwOT
+eyJoaXN0b3J5IjpbMTIzMjI3MDk0NiwtNTkyNTMwNzY0LDEwOT
 Q1NjE4MSwtMTk0OTcyNjMxOSwyMDIzNDY3NzE3LC04NzUwMzcy
 MjQsMTYyMjc1MDg4OSw3MzA5OTgxMTZdfQ==
 -->
