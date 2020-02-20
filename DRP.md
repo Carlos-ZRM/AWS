@@ -35,11 +35,16 @@
 - Paso 11: Prueba del plan de recuperación ante desastres y recuperación cibernética
 	-  En una planificación de contingencia exitosa, es importante probar y evaluar el plan de recuperación ante desastres regularmente. Las operaciones de procesamiento de datos son de naturaleza volátil, lo que resulta en cambios frecuentes en los equipos, programas y documentación. Estas acciones hacen que sea crítico considerar el plan como un documento cambiante.
 
-Paso 12: Reconstrucción del sitio del desastre Este paso debe incluir un plano del centro de datos, las necesidades actuales de hardware y las posibles alternativas, así como los pies cuadrados del centro de datos, los requisitos de energía y los requisitos de seguridad.
+- Paso 12: Reconstrucción del sitio del desastre
+	-  Este paso debe incluir un plano del centro de datos, las necesidades actuales de hardware y las posibles alternativas, así como los pies cuadrados del centro de datos, los requisitos de energía y los requisitos de seguridad.
 
-Paso 13: Registro de cambios en el plan Mantenga actualizado su plan DR. Mantenga registros de los cambios en su configuración, sus aplicaciones y sus horarios y procedimientos de respaldo.
+- Paso 13: Registro de cambios en el plan
+	-  Mantenga actualizado su plan DR. Mantenga registros de los cambios en su configuración, sus aplicaciones y sus horarios y procedimientos de respaldo.
+
+https://www.ibm.com/services/business-continuity/disaster-recovery-plan
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjMyMDU5MTksMzEzMzYzNDE4LDIwOD
+eyJoaXN0b3J5IjpbLTE4MTI3NzYwNTEsMzEzMzYzNDE4LDIwOD
 Q0MTAwOTQsMTI3MjIwMTYzMywtMjA5MjE3ODQ2M119
 -->
