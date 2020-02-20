@@ -37,12 +37,12 @@
 - Determinar el grado de deastre 
 - Implementar el plan de DRP 
 - Monitorear el progreso
-- 
+- Desplegar los servicios del backup
+-  
 
  Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjEzMTkyMzYsMTIzMjI3MDk0NiwtNT
-kyNTMwNzY0LDEwOTQ1NjE4MSwtMTk0OTcyNjMxOSwyMDIzNDY3
-NzE3LC04NzUwMzcyMjQsMTYyMjc1MDg4OSw3MzA5OTgxMTZdfQ
-==
+eyJoaXN0b3J5IjpbMTg0Mzg1NDQxOCwxMjMyMjcwOTQ2LC01OT
+I1MzA3NjQsMTA5NDU2MTgxLC0xOTQ5NzI2MzE5LDIwMjM0Njc3
+MTcsLTg3NTAzNzIyNCwxNjIyNzUwODg5LDczMDk5ODExNl19
 -->
