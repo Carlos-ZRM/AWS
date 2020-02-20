@@ -27,12 +27,14 @@
 - Despliegue de aplicaciones 
 
 ## 6.  Procedimientos 
+- Respuesta a emergencias
+- Procedimientos de backup 
 
 
 
  Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTIxMjAwNjYsLTU5MjUzMDc2NCwxMD
-k0NTYxODEsLTE5NDk3MjYzMTksMjAyMzQ2NzcxNywtODc1MDM3
-MjI0LDE2MjI3NTA4ODksNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE5MDk0MjAzOCwtNTkyNTMwNzY0LDEwOT
+Q1NjE4MSwtMTk0OTcyNjMxOSwyMDIzNDY3NzE3LC04NzUwMzcy
+MjQsMTYyMjc1MDg4OSw3MzA5OTgxMTZdfQ==
 -->
