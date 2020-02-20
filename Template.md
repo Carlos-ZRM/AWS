@@ -39,12 +39,13 @@
 - Monitorear el progreso
 - Desplegar los servicios del backup
 -  Contactar al personal necesario 
+- Notificiar a los usuarios del sistema
 - 
 
  Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNzY1MzcyOCwxODQzODU0NDE4LDEyMz
-IyNzA5NDYsLTU5MjUzMDc2NCwxMDk0NTYxODEsLTE5NDk3MjYz
-MTksMjAyMzQ2NzcxNywtODc1MDM3MjI0LDE2MjI3NTA4ODksNz
-MwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTEzODEwMzIxNzQsMTg0Mzg1NDQxOCwxMj
+MyMjcwOTQ2LC01OTI1MzA3NjQsMTA5NDU2MTgxLC0xOTQ5NzI2
+MzE5LDIwMjM0Njc3MTcsLTg3NTAzNzIyNCwxNjIyNzUwODg5LD
+czMDk5ODExNl19
 -->
