@@ -29,13 +29,14 @@
 ## 6.  Procedimientos 
 - Respuesta a emergencias
 - Procedimientos de backup 
-- Re
+- Procedimientos de reuperación
 
-
+### Inicio del plan
+- 
 
  Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMjI3MDk0NiwtNTkyNTMwNzY0LDEwOT
-Q1NjE4MSwtMTk0OTcyNjMxOSwyMDIzNDY3NzE3LC04NzUwMzcy
-MjQsMTYyMjc1MDg4OSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE1NDAwMjk3NywxMjMyMjcwOTQ2LC01OT
+I1MzA3NjQsMTA5NDU2MTgxLC0xOTQ5NzI2MzE5LDIwMjM0Njc3
+MTcsLTg3NTAzNzIyNCwxNjIyNzUwODg5LDczMDk5ODExNl19
 -->
