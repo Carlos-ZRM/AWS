@@ -32,11 +32,14 @@
 - Procedimientos de reuperación
 
 ### Inicio del plan
-- 
+- Notificar al 
+- Conectar al equipo de infra-estructura
+- Determinar el grado de deastre 
+- i
 
  Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDAwMjk3NywxMjMyMjcwOTQ2LC01OT
-I1MzA3NjQsMTA5NDU2MTgxLC0xOTQ5NzI2MzE5LDIwMjM0Njc3
-MTcsLTg3NTAzNzIyNCwxNjIyNzUwODg5LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMjUxMTcyMTcwLDEyMzIyNzA5NDYsLTU5Mj
+UzMDc2NCwxMDk0NTYxODEsLTE5NDk3MjYzMTksMjAyMzQ2Nzcx
+NywtODc1MDM3MjI0LDE2MjI3NTA4ODksNzMwOTk4MTE2XX0=
 -->
