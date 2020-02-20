@@ -20,12 +20,13 @@
 ## 4 Inventario de procedimientos 
 
 - Generacion de reportes
-- Con
+- Consulta de procedimientos remotos a BD
+-  
 
 
  Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE2NDg4NzQzLC0xOTQ5NzI2MzE5LDIwMj
-M0Njc3MTcsLTg3NTAzNzIyNCwxNjIyNzUwODg5LDczMDk5ODEx
-Nl19
+eyJoaXN0b3J5IjpbLTYyNjQ0MTUyNSwtMTk0OTcyNjMxOSwyMD
+IzNDY3NzE3LC04NzUwMzcyMjQsMTYyMjc1MDg4OSw3MzA5OTgx
+MTZdfQ==
 -->
