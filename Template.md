@@ -11,10 +11,10 @@
 
 | Inventario de aplicaciones | 
 |-----------------------------|
-|Aplicación|Critico|Responsabe||
+|Aplicación|Critico| Tipo| Responsabe||
 
  Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzE4NTc4MTksMjAyMzQ2NzcxNywtOD
+eyJoaXN0b3J5IjpbLTExODUwMTY1NjEsMjAyMzQ2NzcxNywtOD
 c1MDM3MjI0LDE2MjI3NTA4ODksNzMwOTk4MTE2XX0=
 -->
