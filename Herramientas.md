@@ -3,10 +3,14 @@
 - VPC
 - R3
 - S3
+- Code commit 
+- RDS
+- Lambda
 
-
-
+- Mejorar la documentación de los proyectos 
+	- ¿Què información debe tener?
+- Controlar el despliegue de los proyectos ¿Cómo se guardar?
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE2MzY2MzM2XX0=
+eyJoaXN0b3J5IjpbLTExMjgyODg2NDldfQ==
 -->
