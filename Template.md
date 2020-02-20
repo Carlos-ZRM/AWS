@@ -38,11 +38,13 @@
 - Implementar el plan de DRP 
 - Monitorear el progreso
 - Desplegar los servicios del backup
--  
+-  Contactar al personal necesario 
+- 
 
  Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0Mzg1NDQxOCwxMjMyMjcwOTQ2LC01OT
-I1MzA3NjQsMTA5NDU2MTgxLC0xOTQ5NzI2MzE5LDIwMjM0Njc3
-MTcsLTg3NTAzNzIyNCwxNjIyNzUwODg5LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTUxNzY1MzcyOCwxODQzODU0NDE4LDEyMz
+IyNzA5NDYsLTU5MjUzMDc2NCwxMDk0NTYxODEsLTE5NDk3MjYz
+MTksMjAyMzQ2NzcxNywtODc1MDM3MjI0LDE2MjI3NTA4ODksNz
+MwOTk4MTE2XX0=
 -->
