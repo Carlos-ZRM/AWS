@@ -40,12 +40,13 @@
 - Desplegar los servicios del backup
 -  Contactar al personal necesario 
 - Notificiar a los usuarios del sistema
-- 
+### Cumple la siguiente lista
+ 
 
  Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODEwMzIxNzQsMTg0Mzg1NDQxOCwxMj
-MyMjcwOTQ2LC01OTI1MzA3NjQsMTA5NDU2MTgxLC0xOTQ5NzI2
-MzE5LDIwMjM0Njc3MTcsLTg3NTAzNzIyNCwxNjIyNzUwODg5LD
-czMDk5ODExNl19
+eyJoaXN0b3J5IjpbMjEwNzAxMzEyMSwtMTM4MTAzMjE3NCwxOD
+QzODU0NDE4LDEyMzIyNzA5NDYsLTU5MjUzMDc2NCwxMDk0NTYx
+ODEsLTE5NDk3MjYzMTksMjAyMzQ2NzcxNywtODc1MDM3MjI0LD
+E2MjI3NTA4ODksNzMwOTk4MTE2XX0=
 -->
