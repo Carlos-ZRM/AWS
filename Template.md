@@ -15,10 +15,11 @@
 
 |Aplicación|Critico| Tipo| Responsabe|Tipo de ejecuciòn|
 |-----|-----|-----|-------|
-\
+|Jagermeister|No|QA||
+
 
  Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzc0MDc4OTIsMjAyMzQ2NzcxNywtOD
-c1MDM3MjI0LDE2MjI3NTA4ODksNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTgyMjAwNTEzNSwyMDIzNDY3NzE3LC04Nz
+UwMzcyMjQsMTYyMjc1MDg4OSw3MzA5OTgxMTZdfQ==
 -->
