@@ -35,11 +35,14 @@
 - Notificar al 
 - Conectar al equipo de infra-estructura
 - Determinar el grado de deastre 
-- i
+- Implementar el plan de DRP 
+- Monitorear el progreso
+- 
 
  Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUxMTcyMTcwLDEyMzIyNzA5NDYsLTU5Mj
-UzMDc2NCwxMDk0NTYxODEsLTE5NDk3MjYzMTksMjAyMzQ2Nzcx
-NywtODc1MDM3MjI0LDE2MjI3NTA4ODksNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE0MjEzMTkyMzYsMTIzMjI3MDk0NiwtNT
+kyNTMwNzY0LDEwOTQ1NjE4MSwtMTk0OTcyNjMxOSwyMDIzNDY3
+NzE3LC04NzUwMzcyMjQsMTYyMjc1MDg4OSw3MzA5OTgxMTZdfQ
+==
 -->
