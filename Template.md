@@ -17,10 +17,15 @@
 |-----|-----|-----|-------|---|
 |Jagermeister|No|QA|Juan carlos|Horario laboral |
 
-## 4 Inventario de 
+## 4 Inventario de procedimientos 
+
+- Generacion de reportes
+- Con
+
+
  Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTU3NDE0MDAsLTE5NDk3MjYzMTksMj
-AyMzQ2NzcxNywtODc1MDM3MjI0LDE2MjI3NTA4ODksNzMwOTk4
-MTE2XX0=
+eyJoaXN0b3J5IjpbODE2NDg4NzQzLC0xOTQ5NzI2MzE5LDIwMj
+M0Njc3MTcsLTg3NTAzNzIyNCwxNjIyNzUwODg5LDczMDk5ODEx
+Nl19
 -->
