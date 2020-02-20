@@ -7,11 +7,11 @@
 
 |Nombre | Posición | Correo | Telefoo |
 |------|-----------|--------|----------|
-|Carlos Reyes||--------|----------|
+|Carlos Reyes| Becario infra|--------|----------|
 
 
  Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NTQzMzc3MiwtODc1MDM3MjI0LDE2Mj
+eyJoaXN0b3J5IjpbMjAyMzQ2NzcxNywtODc1MDM3MjI0LDE2Mj
 I3NTA4ODksNzMwOTk4MTE2XX0=
 -->
