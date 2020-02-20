@@ -15,13 +15,14 @@
 	- Incluya información como: "Los receptores de diario se cambian en ________ y ​​en ________". Y: "Los objetos modificados en las siguientes bibliotecas y directorios se guardan en ____".
 
 - Paso 6: Procedimientos de recuperación de desastres
-	-  Para cualquier plan de DR, estos tres elementos deben abordarse:
+	
+		-  Para cualquier plan de DR, estos tres elementos deben abordarse:
 	-   Emergency response procedures to document the appropriate emergency response to a fire, natural disaster, or any other activities in order to protect lives and limit damages.
 		-   Backup operations procedures to ensure that essential data processing operational tasks can be conducted after the disruption.
--   Recovery actions procedures to facilitate the rapid restoration of a data processing system following a disaster.
+		-   Recovery actions procedures to facilitate the rapid restoration of a data processing system following a disaster.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNzU1MDc4OCwyMDg0NDEwMDk0LDEyNz
-IyMDE2MzMsLTIwOTIxNzg0NjNdfQ==
+eyJoaXN0b3J5IjpbODk1NTY2MDU4LDIwODQ0MTAwOTQsMTI3Mj
+IwMTYzMywtMjA5MjE3ODQ2M119
 -->
