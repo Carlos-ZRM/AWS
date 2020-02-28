@@ -1,4 +1,5 @@
 #DRP
+
 - Paso 1: Objetivos principales
 	-  El primer paso es delinear ampliamente los objetivos principales de un plan de recuperación ante desastres.
 
@@ -45,6 +46,7 @@ https://www.ibm.com/services/business-continuity/disaster-recovery-plan
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTI3NzYwNTEsMzEzMzYzNDE4LDIwOD
-Q0MTAwOTQsMTI3MjIwMTYzMywtMjA5MjE3ODQ2M119
+eyJoaXN0b3J5IjpbMjE0MDQ1NTY3NSwtMTgxMjc3NjA1MSwzMT
+MzNjM0MTgsMjA4NDQxMDA5NCwxMjcyMjAxNjMzLC0yMDkyMTc4
+NDYzXX0=
 -->
