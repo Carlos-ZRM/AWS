@@ -4,7 +4,7 @@
 
 Esta automatización permitirá automatizar los cambios en un repositorio  git code commit y la construcción de una imagen en docker en el regestry de AWS ECR. Para hacerlo se utulizará la herramienta Code pipeline.
 
-## 1. Crear un virtual env e instalar aws-cli 
+##  1. Crear un virtual env e instalar aws-cli 
 Se pueden crear estos recursos en la consola aws o 
 
 ```
@@ -13,6 +13,8 @@ source myvenv/bin/activate
 pip install awscli
 
 ```
+### 1.2 Iniciar sesión aws cli
+
 El siguiente paso es iniciar sesión en aws cli y que Docker inicie sesión. 
 Para esto necesitamos las credenciales del usuario. Las podemos encontrar en la consola en el servicio **IAM** .  
 
@@ -25,11 +27,11 @@ AWS Access Key ID [None]:
 AWS Secret Access Key [None]: 
 Default region name [None]: 
 Default output format [None]:
+```
 
-# Iniciar sesion Docker. Agregue el Id de la cuenta aws a la que se este conectando
-
+ Iniciar sesion Docker. Agregue el Id de la cuenta aws a la que se este conectando
+```
 aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin aws_account_id.dkr.ecr.us-east-1.amazonaws.com
-    ```  
 ```
 ## 1) Crear un repositorio codecommit y una imagen en Docker.
 
@@ -69,8 +71,8 @@ aws ecr create-repository \
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTM1MDM0MTcsLTE1NTgwMDgxNzYsLT
-g5MTE5MjYxNCwtMjM3MTYyNjk1LC0yMDIxMTE5OTg2LC0yMzk3
-MzcxNzIsNjE0MjI2NjEzLDE2MDg0NjA1MzIsLTE3NzYxMDY4Mi
-wxNTM5MTI1NTgzLDg1NzkzMjIxMV19
+eyJoaXN0b3J5IjpbMjA3Mzg1MjM0NywtMTU1ODAwODE3NiwtOD
+kxMTkyNjE0LC0yMzcxNjI2OTUsLTIwMjExMTk5ODYsLTIzOTcz
+NzE3Miw2MTQyMjY2MTMsMTYwODQ2MDUzMiwtMTc3NjEwNjgyLD
+E1MzkxMjU1ODMsODU3OTMyMjExXX0=
 -->
