@@ -17,8 +17,6 @@ pip install awscli
 
 El siguiente paso es iniciar sesión en aws cli y que Docker inicie sesión. 
 Para esto necesitamos las credenciales del usuario. Las podemos encontrar en la consola en el servicio **IAM** .  
-####  1.2.1 Politicas necesarias
-
 ```
 aws --version
 # Iniciar sesion aws-cli
@@ -29,6 +27,14 @@ AWS Secret Access Key [None]:
 Default region name [None]: 
 Default output format [None]:
 ```
+
+####  1.2.1 Politicas necesarias
+Agregue las siguientes politicas a su usu
+- codecommit:CreateRepository 
+- codecommit:TagResource 
+-  ecr:GetAuthorizationToken
+- ecr:CreateRepository
+
 ### 1.3 Iniciar seion  Docker.
 
 Agregue el Id de la cuenta aws a la que se este conectando
@@ -39,9 +45,6 @@ aws ecr get-login-password --region us-east-1 | docker login --username AWS --pa
 
 Para crear los recuros debemos asignarles una politica que tenga los siguientes permisos
 
-- codecommit:CreateRepository 
-- codecommit:TagResource 
--  ecr:GetAuthorizationToken
 
 Creación del repositorio code commit 
 ```
@@ -73,7 +76,7 @@ aws ecr create-repository \
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNTI2NjQzNywtMTU1ODAwODE3NiwtOD
+eyJoaXN0b3J5IjpbMjAyNjcwNTQyOCwtMTU1ODAwODE3NiwtOD
 kxMTkyNjE0LC0yMzcxNjI2OTUsLTIwMjExMTk5ODYsLTIzOTcz
 NzE3Miw2MTQyMjY2MTMsMTYwODQ2MDUzMiwtMTc3NjEwNjgyLD
 E1MzkxMjU1ODMsODU3OTMyMjExXX0=
