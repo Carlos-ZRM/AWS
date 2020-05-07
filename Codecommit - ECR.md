@@ -13,7 +13,8 @@ source myvenv/bin/activate
 pip install awscli
 
 ```
-El siguiente paso es iniciar sesión en aws cli y que Docker inicie sesión. Para esto necesitamos las credenciales del usuario. Las podemos encontrar en la consola en el servicio **IAM** 
+El siguiente paso es iniciar sesión en aws cli y que Docker inicie sesión. 
+Para esto necesitamos las credenciales del usuario. Las podemos encontrar en la consola en el servicio **IAM** .  
 
 ```
 aws --version
@@ -25,7 +26,7 @@ AWS Secret Access Key [None]:
 Default region name [None]: 
 Default output format [None]:
 
-# Iniciar sesion Docker
+# Iniciar sesion Docker. Agregue el Id de la cuenta aws a la que se este conectando
 
 aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin aws_account_id.dkr.ecr.us-east-1.amazonaws.com
     ```  
@@ -61,7 +62,7 @@ Creación del regestry ECR
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNzE2MjY5NSwtMjAyMTExOTk4NiwtMj
-M5NzM3MTcyLDYxNDIyNjYxMywxNjA4NDYwNTMyLC0xNzc2MTA2
-ODIsMTUzOTEyNTU4Myw4NTc5MzIyMTFdfQ==
+eyJoaXN0b3J5IjpbMTY4MTY2NjYxMiwtMjM3MTYyNjk1LC0yMD
+IxMTE5OTg2LC0yMzk3MzcxNzIsNjE0MjI2NjEzLDE2MDg0NjA1
+MzIsLTE3NzYxMDY4MiwxNTM5MTI1NTgzLDg1NzkzMjIxMV19
 -->
