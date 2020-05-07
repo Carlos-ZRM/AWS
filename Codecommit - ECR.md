@@ -28,7 +28,7 @@ Default output format [None]:
 
 Para crear los recuros debemos asignarles una politica que tenga los siguientes permisos
 
-- 
+- codecommit:CreateRepository 
 - 
 Creación del repositorio
 ```
@@ -38,6 +38,6 @@ aws codecommit create-repository --repository-name MiRepositorio --repository-de
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MTYzMzcsMTYwODQ2MDUzMiwtMTc3Nj
-EwNjgyLDE1MzkxMjU1ODMsODU3OTMyMjExXX0=
+eyJoaXN0b3J5IjpbNjE0MjI2NjEzLDE2MDg0NjA1MzIsLTE3Nz
+YxMDY4MiwxNTM5MTI1NTgzLDg1NzkzMjIxMV19
 -->
