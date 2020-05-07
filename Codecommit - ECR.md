@@ -25,10 +25,13 @@ Default region name [None]:
 Default output format [None]:  
 ```
 ## Crear un repositorio codecommit y una imagen en Docker.
-Cre
+Creación del repositorio
+```
+aws codecommit create-repository --repository-name MyDedev-admisiones --repository-description "Repositorio aws ci/di Codecommit - ECR " --tags Team=ansible
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjY0NDEwOTAsMTYwODQ2MDUzMiwtMT
+eyJoaXN0b3J5IjpbLTIwMDkyNzg0NzQsMTYwODQ2MDUzMiwtMT
 c3NjEwNjgyLDE1MzkxMjU1ODMsODU3OTMyMjExXX0=
 -->
