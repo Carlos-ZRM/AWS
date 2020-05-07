@@ -7,10 +7,13 @@ Esta automatización permitirá automatizar los cambios en un repositorio  git c
 ## Crear un repositorio codecommit y una imagen en Docker.
 ```
 python3 -m venv myvenv
+source myvenv/bin/activate
+pip install awscli
+
 ```
 ### Crear un virtual env e instalar aws-cli 
 Se pueden crear estos recursos en la consola aws o 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MjIyMzc4NCw4NTc5MzIyMTFdfQ==
+eyJoaXN0b3J5IjpbMTUzOTEyNTU4Myw4NTc5MzIyMTFdfQ==
 -->
