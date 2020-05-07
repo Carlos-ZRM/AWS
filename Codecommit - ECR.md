@@ -56,13 +56,16 @@ aws codecommit create-repository --repository-name MiRepositorio --repository-de
         "Arn": "arn:aws:codecommit:us-west-2:2222222222:MiRepositorio
     }
 }
-
 ```
+
 Creación del regestry ECR
+aws ecr create-repository \ --repository-name `sample-repo` \ --image-scanning-configuration scanOnPush=`true` \ --region `us-east-1`
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MTY2NjYxMiwtMjM3MTYyNjk1LC0yMD
-IxMTE5OTg2LC0yMzk3MzcxNzIsNjE0MjI2NjEzLDE2MDg0NjA1
-MzIsLTE3NzYxMDY4MiwxNTM5MTI1NTgzLDg1NzkzMjIxMV19
+eyJoaXN0b3J5IjpbLTE5NTI5MDIzNzAsLTIzNzE2MjY5NSwtMj
+AyMTExOTk4NiwtMjM5NzM3MTcyLDYxNDIyNjYxMywxNjA4NDYw
+NTMyLC0xNzc2MTA2ODIsMTUzOTEyNTU4Myw4NTc5MzIyMTFdfQ
+==
 -->
