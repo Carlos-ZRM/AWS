@@ -25,10 +25,10 @@ Default region name [None]:
 Default output format [None]:  
 ```
 ## Crear un repositorio codecommit y una imagen en Docker.
-
+Cre
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwODQ2MDUzMiwtMTc3NjEwNjgyLDE1Mz
-kxMjU1ODMsODU3OTMyMjExXX0=
+eyJoaXN0b3J5IjpbLTE4MjY0NDEwOTAsMTYwODQ2MDUzMiwtMT
+c3NjEwNjgyLDE1MzkxMjU1ODMsODU3OTMyMjExXX0=
 -->
