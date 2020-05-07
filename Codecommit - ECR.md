@@ -36,7 +36,7 @@ Para crear los recuros debemos asignarles una politica que tenga los siguientes 
 
 - codecommit:CreateRepository 
 - codecommit:TagResource 
-- 
+-  ecr:GetAuthorizationToken
 
 Creación del repositorio
 ```
@@ -61,7 +61,7 @@ Creación del regestry ECR
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NDAzNzMyMSwtMjAyMTExOTk4NiwtMj
+eyJoaXN0b3J5IjpbLTIzNzE2MjY5NSwtMjAyMTExOTk4NiwtMj
 M5NzM3MTcyLDYxNDIyNjYxMywxNjA4NDYwNTMyLC0xNzc2MTA2
 ODIsMTUzOTEyNTU4Myw4NTc5MzIyMTFdfQ==
 -->
