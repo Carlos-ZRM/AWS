@@ -25,7 +25,10 @@ AWS Secret Access Key [None]:
 Default region name [None]: 
 Default output format [None]:
 
-# In  
+# Iniciar sesion Docker
+
+aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin aws_account_id.dkr.ecr.us-east-1.amazonaws.com
+    ```  
 ```
 ## Crear un repositorio codecommit y una imagen en Docker.
 
@@ -57,7 +60,7 @@ Creación del regestry ECR
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM0NDA2MTUwLC0yMzk3MzcxNzIsNjE0Mj
-I2NjEzLDE2MDg0NjA1MzIsLTE3NzYxMDY4MiwxNTM5MTI1NTgz
-LDg1NzkzMjIxMV19
+eyJoaXN0b3J5IjpbLTIwMjExMTk5ODYsLTIzOTczNzE3Miw2MT
+QyMjY2MTMsMTYwODQ2MDUzMiwtMTc3NjEwNjgyLDE1MzkxMjU1
+ODMsODU3OTMyMjExXX0=
 -->
