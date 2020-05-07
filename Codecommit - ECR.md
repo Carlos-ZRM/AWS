@@ -10,11 +10,16 @@ python3 -m venv myvenv
 source myvenv/bin/activate
 pip install awscli
 ```
-El siguiente paso es iniciar sesión en aws cli. Para esto necesitamos las credenciales del usuario. Las podemos encontrar en la consola en el servicio **IAM**
+El siguiente paso es iniciar sesión en aws cli. Para esto necesitamos las credenciales del usuario. Las podemos encontrar en la consola en el servicio **IAM** 
+
+```
+aws --version
+aws configure 
+```
 ### Crear un virtual env e instalar aws-cli 
 Se pueden crear estos recursos en la consola aws o 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzY4NDUzNzAsMTUzOTEyNTU4Myw4NT
-c5MzIyMTFdfQ==
+eyJoaXN0b3J5IjpbMTYxODkzODI3MCwxNTM5MTI1NTgzLDg1Nz
+kzMjIxMV19
 -->
