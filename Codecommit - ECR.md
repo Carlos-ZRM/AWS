@@ -25,7 +25,11 @@ Default region name [None]:
 Default output format [None]:  
 ```
 ## Crear un repositorio codecommit y una imagen en Docker.
-Para crear los recuros debemos asignarles 
+
+Para crear los recuros debemos asignarles una politica que tenga los siguientes permisos
+
+- 
+- 
 Creación del repositorio
 ```
 aws codecommit create-repository --repository-name MiRepositorio --repository-description "Repositorio aws ci/di Codecommit - ECR " --tags Team=ansible
@@ -34,6 +38,6 @@ aws codecommit create-repository --repository-name MiRepositorio --repository-de
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NDQyNjY2LDE2MDg0NjA1MzIsLTE3Nz
-YxMDY4MiwxNTM5MTI1NTgzLDg1NzkzMjIxMV19
+eyJoaXN0b3J5IjpbMTA5MTYzMzcsMTYwODQ2MDUzMiwtMTc3Nj
+EwNjgyLDE1MzkxMjU1ODMsODU3OTMyMjExXX0=
 -->
