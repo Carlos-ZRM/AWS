@@ -35,13 +35,25 @@ Creación del repositorio
 ```
 aws codecommit create-repository --repository-name MiRepositorio --repository-description "Repositorio aws ci/di Codecommit - ECR " --tags Team=ansible
 ### Respuesta 
-
+{
+    "repositoryMetadata": {
+        "accountId": "2222222222",
+        "repositoryId": "ffffffff-ffff-ffff-ffff-ffffffff",
+        "repositoryName": "MiRepositorio",
+        "repositoryDescription": "Repositorio aws ci/di Codecommit a ECR",
+        "lastModifiedDate": 1588893218.1,
+        "creationDate": 1588893218.1,
+        "cloneUrlHttp": "https://git-codecommit.us-west-2.amazonaws.com/v1/repos/MiRepositorio",
+        "cloneUrlSsh": "ssh://git-codecommit.us-west-2.amazonaws.com/v1/repos/MiRepositorio",
+        "Arn": "arn:aws:codecommit:us-west-2:2222222222:MiRepositorio
+    }
+}
 
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzOTczNzE3Miw2MTQyMjY2MTMsMTYwOD
-Q2MDUzMiwtMTc3NjEwNjgyLDE1MzkxMjU1ODMsODU3OTMyMjEx
-XX0=
+eyJoaXN0b3J5IjpbNDg1MTc1MzIxLC0yMzk3MzcxNzIsNjE0Mj
+I2NjEzLDE2MDg0NjA1MzIsLTE3NzYxMDY4MiwxNTM5MTI1NTgz
+LDg1NzkzMjIxMV19
 -->
