@@ -13,16 +13,19 @@ source myvenv/bin/activate
 pip install awscli
 
 ```
-El siguiente paso es iniciar sesión en aws cli. Para esto necesitamos las credenciales del usuario. Las podemos encontrar en la consola en el servicio **IAM** 
+El siguiente paso es iniciar sesión en aws cli y que Docker inicie sesión. Para esto necesitamos las credenciales del usuario. Las podemos encontrar en la consola en el servicio **IAM** 
 
 ```
 aws --version
+# Iniciar sesion aws-cli
 aws configure 
 ### Respuesta interactiva
 AWS Access Key ID [None]: 
 AWS Secret Access Key [None]: 
 Default region name [None]: 
-Default output format [None]:  
+Default output format [None]:
+
+# In  
 ```
 ## Crear un repositorio codecommit y una imagen en Docker.
 
@@ -54,7 +57,7 @@ Creación del regestry ECR
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNDIwMTIwNSwtMjM5NzM3MTcyLDYxND
-IyNjYxMywxNjA4NDYwNTMyLC0xNzc2MTA2ODIsMTUzOTEyNTU4
-Myw4NTc5MzIyMTFdfQ==
+eyJoaXN0b3J5IjpbODM0NDA2MTUwLC0yMzk3MzcxNzIsNjE0Mj
+I2NjEzLDE2MDg0NjA1MzIsLTE3NzYxMDY4MiwxNTM5MTI1NTgz
+LDg1NzkzMjIxMV19
 -->
