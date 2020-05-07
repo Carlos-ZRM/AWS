@@ -60,13 +60,17 @@ aws codecommit create-repository --repository-name MiRepositorio --repository-de
 
 Creación del regestry ECR
 ```
-aws ecr create-repository \ --repository-name `sample-repo` \ --image-scanning-configuration scanOnPush=`true` \ --region `us-east-1` 
+aws ecr create-repository \
+    --repository-name dev \
+    --image-scanning-configuration scanOnPush=true \
+    --region us-east-1
 ```
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MTE5MjYxNCwtMjM3MTYyNjk1LC0yMD
-IxMTE5OTg2LC0yMzk3MzcxNzIsNjE0MjI2NjEzLDE2MDg0NjA1
-MzIsLTE3NzYxMDY4MiwxNTM5MTI1NTgzLDg1NzkzMjIxMV19
+eyJoaXN0b3J5IjpbLTE1NTgwMDgxNzYsLTg5MTE5MjYxNCwtMj
+M3MTYyNjk1LC0yMDIxMTE5OTg2LC0yMzk3MzcxNzIsNjE0MjI2
+NjEzLDE2MDg0NjA1MzIsLTE3NzYxMDY4MiwxNTM5MTI1NTgzLD
+g1NzkzMjIxMV19
 -->
