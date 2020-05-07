@@ -26,8 +26,9 @@ Default output format [None]:
 ```
 ## Crear un repositorio codecommit y una imagen en Docker.
 
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzYxMDY4MiwxNTM5MTI1NTgzLDg1Nz
-kzMjIxMV19
+eyJoaXN0b3J5IjpbMTYwODQ2MDUzMiwtMTc3NjEwNjgyLDE1Mz
+kxMjU1ODMsODU3OTMyMjExXX0=
 -->
