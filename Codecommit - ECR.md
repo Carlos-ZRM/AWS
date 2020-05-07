@@ -17,6 +17,7 @@ pip install awscli
 
 El siguiente paso es iniciar sesión en aws cli y que Docker inicie sesión. 
 Para esto necesitamos las credenciales del usuario. Las podemos encontrar en la consola en el servicio **IAM** .  
+####  1.2.1 Politicas necesarias
 
 ```
 aws --version
@@ -28,8 +29,9 @@ AWS Secret Access Key [None]:
 Default region name [None]: 
 Default output format [None]:
 ```
+### 1.3 Iniciar seion  Docker.
 
- Iniciar sesion Docker. Agregue el Id de la cuenta aws a la que se este conectando
+Agregue el Id de la cuenta aws a la que se este conectando
 ```
 aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin aws_account_id.dkr.ecr.us-east-1.amazonaws.com
 ```
@@ -71,7 +73,7 @@ aws ecr create-repository \
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3Mzg1MjM0NywtMTU1ODAwODE3NiwtOD
+eyJoaXN0b3J5IjpbMTUzNTI2NjQzNywtMTU1ODAwODE3NiwtOD
 kxMTkyNjE0LC0yMzcxNjI2OTUsLTIwMjExMTk5ODYsLTIzOTcz
 NzE3Miw2MTQyMjY2MTMsMTYwODQ2MDUzMiwtMTc3NjEwNjgyLD
 E1MzkxMjU1ODMsODU3OTMyMjExXX0=
