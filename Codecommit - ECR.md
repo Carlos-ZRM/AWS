@@ -82,8 +82,8 @@ Respuesta
 {
     "repository": {
         "registryId": "123456789012",
-        "repositoryName": "sample-repo",
-        "repositoryArn": "`arn:aws:ecr:us-east-1:123456789012:repository/sample-repo`",
+        "repositoryName": "dev",
+        "repositoryArn": "`arn:aws:ecr:us-east-1:123456789012:repository/dev`",
         "imageScanningConfiguration": {
             "scanOnPush": true
         }
@@ -108,9 +108,9 @@ Docker crea una imagen con el comando **docker build .** y es  necesario agregar
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc5OTUxOTgzLC0xOTA2NDM1Nzg0LDE1Mj
-k0MzA3MDUsLTE1NTgwMDgxNzYsLTg5MTE5MjYxNCwtMjM3MTYy
-Njk1LC0yMDIxMTE5OTg2LC0yMzk3MzcxNzIsNjE0MjI2NjEzLD
-E2MDg0NjA1MzIsLTE3NzYxMDY4MiwxNTM5MTI1NTgzLDg1Nzkz
-MjIxMV19
+eyJoaXN0b3J5IjpbLTE0NDMyODQxNzcsNzc5OTUxOTgzLC0xOT
+A2NDM1Nzg0LDE1Mjk0MzA3MDUsLTE1NTgwMDgxNzYsLTg5MTE5
+MjYxNCwtMjM3MTYyNjk1LC0yMDIxMTE5OTg2LC0yMzk3MzcxNz
+IsNjE0MjI2NjEzLDE2MDg0NjA1MzIsLTE3NzYxMDY4MiwxNTM5
+MTI1NTgzLDg1NzkzMjIxMV19
 -->
