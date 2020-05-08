@@ -103,11 +103,12 @@ cd MiRepositorio
 
 Docker crea una imagen con el comando **docker build .** y es  necesario agregar en el directorio raiz del proyecto git  el archivo **Dockerfile** además de todos los elementos necesarios para construir la imagen.
  ### 3.2 Construir la imagen en el repositorio local 
- Es recomendable construir la imagen en su equipo e indentificar los comandos nec
+ Es recomendable construir la imagen en su equipo e indentificar los comandos necesarios para la construcción separandolos en fases, al menos debe considerar las siguientes : **prebuild** , **build**, **postbuild** 
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY2Mjc1NTgwLC0xOTA2NDM1Nzg0LDE1Mj
+eyJoaXN0b3J5IjpbNzc5OTUxOTgzLC0xOTA2NDM1Nzg0LDE1Mj
 k0MzA3MDUsLTE1NTgwMDgxNzYsLTg5MTE5MjYxNCwtMjM3MTYy
 Njk1LC0yMDIxMTE5OTg2LC0yMzk3MzcxNzIsNjE0MjI2NjEzLD
 E2MDg0NjA1MzIsLTE3NzYxMDY4MiwxNTM5MTI1NTgzLDg1Nzkz
