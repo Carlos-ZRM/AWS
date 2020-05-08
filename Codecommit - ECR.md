@@ -142,14 +142,14 @@ artifacts:
 #### 3.2.3 Push al repositorio
 ```
 git add --all
-git commit -m "Primer repostorio 
+git commit -m "Primer repostorio code commit - cr "
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NTgzODIyMiwtMjA0MTI3MTE3NCwtMT
-Q0MzI4NDE3Nyw3Nzk5NTE5ODMsLTE5MDY0MzU3ODQsMTUyOTQz
-MDcwNSwtMTU1ODAwODE3NiwtODkxMTkyNjE0LC0yMzcxNjI2OT
-UsLTIwMjExMTk5ODYsLTIzOTczNzE3Miw2MTQyMjY2MTMsMTYw
-ODQ2MDUzMiwtMTc3NjEwNjgyLDE1MzkxMjU1ODMsODU3OTMyMj
-ExXX0=
+eyJoaXN0b3J5IjpbLTIxMzkwNzA2NzIsLTIwNDEyNzExNzQsLT
+E0NDMyODQxNzcsNzc5OTUxOTgzLC0xOTA2NDM1Nzg0LDE1Mjk0
+MzA3MDUsLTE1NTgwMDgxNzYsLTg5MTE5MjYxNCwtMjM3MTYyNj
+k1LC0yMDIxMTE5OTg2LC0yMzk3MzcxNzIsNjE0MjI2NjEzLDE2
+MDg0NjA1MzIsLTE3NzYxMDY4MiwxNTM5MTI1NTgzLDg1NzkzMj
+IxMV19
 -->
