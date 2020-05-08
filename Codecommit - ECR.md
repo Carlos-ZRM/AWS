@@ -144,12 +144,15 @@ artifacts:
 git add --all
 git commit -m "Primer repostorio code commit - cr "
 ```
+### Politicas del role codebuild-Build-dev-admisiones-service-role
+Agregar las siguientes politicas al role creado 
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzkwNzA2NzIsLTIwNDEyNzExNzQsLT
-E0NDMyODQxNzcsNzc5OTUxOTgzLC0xOTA2NDM1Nzg0LDE1Mjk0
-MzA3MDUsLTE1NTgwMDgxNzYsLTg5MTE5MjYxNCwtMjM3MTYyNj
-k1LC0yMDIxMTE5OTg2LC0yMzk3MzcxNzIsNjE0MjI2NjEzLDE2
-MDg0NjA1MzIsLTE3NzYxMDY4MiwxNTM5MTI1NTgzLDg1NzkzMj
-IxMV19
+eyJoaXN0b3J5IjpbLTIxMDQ0OTMxMzYsLTIxMzkwNzA2NzIsLT
+IwNDEyNzExNzQsLTE0NDMyODQxNzcsNzc5OTUxOTgzLC0xOTA2
+NDM1Nzg0LDE1Mjk0MzA3MDUsLTE1NTgwMDgxNzYsLTg5MTE5Mj
+YxNCwtMjM3MTYyNjk1LC0yMDIxMTE5OTg2LC0yMzk3MzcxNzIs
+NjE0MjI2NjEzLDE2MDg0NjA1MzIsLTE3NzYxMDY4MiwxNTM5MT
+I1NTgzLDg1NzkzMjIxMV19
 -->
