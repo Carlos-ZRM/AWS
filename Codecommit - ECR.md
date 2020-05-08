@@ -101,14 +101,14 @@ git clone  https://git-codecommit.us-west-2.amazonaws.com/v1/repos/MiRepositorio
 cd MiRepositorio
 ``` 
 
-Docker crea una imagen con el comando **docker build .** y es  necesario agregar en el directorio raiz del proyecto git  el archivo **Dockerfile** además de todos los elementos 
-
+Docker crea una imagen con el comando **docker build .** y es  necesario agregar en el directorio raiz del proyecto git  el archivo **Dockerfile** además de todos los elementos necesarios para construir la imagen.
+Es recomendable que primero construya la imagen en su equipo
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MTI5MDY1MywtMTkwNjQzNTc4NCwxNT
-I5NDMwNzA1LC0xNTU4MDA4MTc2LC04OTExOTI2MTQsLTIzNzE2
-MjY5NSwtMjAyMTExOTk4NiwtMjM5NzM3MTcyLDYxNDIyNjYxMy
-wxNjA4NDYwNTMyLC0xNzc2MTA2ODIsMTUzOTEyNTU4Myw4NTc5
-MzIyMTFdfQ==
+eyJoaXN0b3J5IjpbLTE0NzY3NjgzNTYsLTE5MDY0MzU3ODQsMT
+UyOTQzMDcwNSwtMTU1ODAwODE3NiwtODkxMTkyNjE0LC0yMzcx
+NjI2OTUsLTIwMjExMTk5ODYsLTIzOTczNzE3Miw2MTQyMjY2MT
+MsMTYwODQ2MDUzMiwtMTc3NjEwNjgyLDE1MzkxMjU1ODMsODU3
+OTMyMjExXX0=
 -->
