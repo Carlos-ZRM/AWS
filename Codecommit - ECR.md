@@ -91,14 +91,17 @@ Respuesta
 }
 ```
 ## 3 Creación del código en el directorio code commit 
-Para 
+Para hacer uso del codecommit es necesario que el usuario tenga politicas que le permitan acceder al repositorio. 
+### 
+``` 
+``
 Docker crea una imagen con el comando **docker build .** y es  necesario agregar en el directorio raiz del proyecto git  archivo **Dockerfile** además de todos 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcyMzIzNjQzLDE1Mjk0MzA3MDUsLTE1NT
-gwMDgxNzYsLTg5MTE5MjYxNCwtMjM3MTYyNjk1LC0yMDIxMTE5
-OTg2LC0yMzk3MzcxNzIsNjE0MjI2NjEzLDE2MDg0NjA1MzIsLT
-E3NzYxMDY4MiwxNTM5MTI1NTgzLDg1NzkzMjIxMV19
+eyJoaXN0b3J5IjpbLTg2MjYxNzgxMCwxNTI5NDMwNzA1LC0xNT
+U4MDA4MTc2LC04OTExOTI2MTQsLTIzNzE2MjY5NSwtMjAyMTEx
+OTk4NiwtMjM5NzM3MTcyLDYxNDIyNjYxMywxNjA4NDYwNTMyLC
+0xNzc2MTA2ODIsMTUzOTEyNTU4Myw4NTc5MzIyMTFdfQ==
 -->
