@@ -91,12 +91,13 @@ Respuesta
 }
 ```
 ## 3 Creación del código 
+Si es la primera vez que despliega una  imagen en docker
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyOTQzMDcwNSwtMTU1ODAwODE3NiwtOD
-kxMTkyNjE0LC0yMzcxNjI2OTUsLTIwMjExMTk5ODYsLTIzOTcz
-NzE3Miw2MTQyMjY2MTMsMTYwODQ2MDUzMiwtMTc3NjEwNjgyLD
-E1MzkxMjU1ODMsODU3OTMyMjExXX0=
+eyJoaXN0b3J5IjpbMTA1OTMxMDYxMCwxNTI5NDMwNzA1LC0xNT
+U4MDA4MTc2LC04OTExOTI2MTQsLTIzNzE2MjY5NSwtMjAyMTEx
+OTk4NiwtMjM5NzM3MTcyLDYxNDIyNjYxMywxNjA4NDYwNTMyLC
+0xNzc2MTA2ODIsMTUzOTEyNTU4Myw4NTc5MzIyMTFdfQ==
 -->
