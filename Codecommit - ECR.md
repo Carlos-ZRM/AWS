@@ -106,11 +106,43 @@ Docker crea una imagen con el comando **docker build .** y es  necesario agregar
 ###  3.2 Construir la imagen en el repositorio local 
  Es recomendable construir la imagen en su equipo e indentificar los comandos necesarios para la construcción separandolos en fases, al menos debe considerar las siguientes : **prebuild** , **build**, **postbuild** 
 #### 3.2.2 buildspec.yml
-Se debe agregar el archivo buildspec.yml con la s
+Se debe agregar el archivo buildspec.yml con la siguiente estructura. deberá modificar el parametro **aws_account_id** con el id de su cuenta
+```
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - echo Logging in to Amazon ECR...
+      -a aws --version
+      - echo $AWS_DEFAULT_REGION
+      - REPOSITORY_URI=aws_account_id.dkr.ecr.us-east-1.amazonaws.com/dev
+      - $(aws ecr get-login --region us-west-2 --no-include-email)
+      - COMMIT_HASH=$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | cut -c 1-7)
+      - echo $COMMIT_HASH
+      - IMAGE_TAG=build-$(echo $CODEBUILD_BUILD_ID | awk -F":" '{print $2}')
+      - echo $IMAGE_TAG
+
+  build:
+    commands:
+      - echo Build started on `date`
+      - echo Building the Docker image...
+      - docker build -t dev .
+      - docker tag dev:latest aws_account_id.dkr.ecr.us-west-2.amazonaws.com/dev:latest
+  post_build:
+    commands:
+      - echo Build completed on `date`
+      - echo Pushing the Docker images...
+      - docker push aws_account_id.dkr.ecr.us-west-2.amazonaws.com/dev:latest
+      - echo '[{"name":"dev","imageUri":"aws_account_id.dkr.ecr.us-west-2.amazonaws.com/dev:latest"}]' > imagedefinitions.json
+artifacts:
+  files:
+      - '**/*'
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTA2NjQzMzIsLTE0NDMyODQxNzcsNz
+eyJoaXN0b3J5IjpbLTIwNDEyNzExNzQsLTE0NDMyODQxNzcsNz
 c5OTUxOTgzLC0xOTA2NDM1Nzg0LDE1Mjk0MzA3MDUsLTE1NTgw
 MDgxNzYsLTg5MTE5MjYxNCwtMjM3MTYyNjk1LC0yMDIxMTE5OT
 g2LC0yMzk3MzcxNzIsNjE0MjI2NjEzLDE2MDg0NjA1MzIsLTE3
