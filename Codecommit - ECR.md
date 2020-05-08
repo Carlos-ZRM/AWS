@@ -70,7 +70,7 @@ Respuesta
 }
 ```
 
-Creación del regestry ECR
+### 2.2 Creación del regestry ECR
 ```
 aws ecr create-repository \
     --repository-name dev \
@@ -90,11 +90,12 @@ Respuesta
     }
 }
 ```
+## 3 Crear 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwODY1MTksLTE1NTgwMDgxNzYsLTg5MT
-E5MjYxNCwtMjM3MTYyNjk1LC0yMDIxMTE5OTg2LC0yMzk3Mzcx
-NzIsNjE0MjI2NjEzLDE2MDg0NjA1MzIsLTE3NzYxMDY4MiwxNT
-M5MTI1NTgzLDg1NzkzMjIxMV19
+eyJoaXN0b3J5IjpbMTYwMDcwODkwMCwtMTU1ODAwODE3NiwtOD
+kxMTkyNjE0LC0yMzcxNjI2OTUsLTIwMjExMTk5ODYsLTIzOTcz
+NzE3Miw2MTQyMjY2MTMsMTYwODQ2MDUzMiwtMTc3NjEwNjgyLD
+E1MzkxMjU1ODMsODU3OTMyMjExXX0=
 -->
