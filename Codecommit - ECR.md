@@ -29,7 +29,8 @@ Default output format [None]:
 ```
 
 ####  1.2.1 Politicas necesarias
-Agregue las siguientes politicas a su usu
+Agregue las siguientes politicas a su usuario. 
+
 - codecommit:CreateRepository 
 - codecommit:TagResource 
 -  ecr:GetAuthorizationToken
@@ -41,10 +42,11 @@ Agregue el Id de la cuenta aws a la que se este conectando
 ```
 aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin aws_account_id.dkr.ecr.us-east-1.amazonaws.com
 ```
-## 1) Crear un repositorio codecommit y una imagen en Docker.
+## 2. Crear un repositorio codecommit y una imagen en Docker.
 
 Para crear los recuros debemos asignarles una politica que tenga los siguientes permisos
 
+### 2.1 Codecommit
 
 Creación del repositorio code commit 
 ```
@@ -76,7 +78,7 @@ aws ecr create-repository \
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNjcwNTQyOCwtMTU1ODAwODE3NiwtOD
+eyJoaXN0b3J5IjpbMTI5MDgxODE1NywtMTU1ODAwODE3NiwtOD
 kxMTkyNjE0LC0yMzcxNjI2OTUsLTIwMjExMTk5ODYsLTIzOTcz
 NzE3Miw2MTQyMjY2MTMsMTYwODQ2MDUzMiwtMTc3NjEwNjgyLD
 E1MzkxMjU1ODMsODU3OTMyMjExXX0=
