@@ -51,7 +51,10 @@ Para crear los recuros debemos asignarles una politica que tenga los siguientes 
 Creación del repositorio code commit 
 ```
 aws codecommit create-repository --repository-name MiRepositorio --repository-description "Repositorio aws ci/di Codecommit - ECR " --tags Team=ansible
-### Respuesta 
+```
+
+Respuesta
+``` 
 {
     "repositoryMetadata": {
         "accountId": "2222222222",
@@ -74,12 +77,24 @@ aws ecr create-repository \
     --image-scanning-configuration scanOnPush=true \
     --region us-east-1
 ```
-
+Respuesta 
+```
+{
+    "repository": {
+        "registryId": "123456789012",
+        "repositoryName": "sample-repo",
+        "repositoryArn": "`arn:aws:ecr:us-east-1:123456789012:repository/sample-repo`",
+        "imageScanningConfiguration": {
+            "scanOnPush": true
+        }
+    }
+}
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MDgxODE1NywtMTU1ODAwODE3NiwtOD
-kxMTkyNjE0LC0yMzcxNjI2OTUsLTIwMjExMTk5ODYsLTIzOTcz
-NzE3Miw2MTQyMjY2MTMsMTYwODQ2MDUzMiwtMTc3NjEwNjgyLD
-E1MzkxMjU1ODMsODU3OTMyMjExXX0=
+eyJoaXN0b3J5IjpbMTQwODY1MTksLTE1NTgwMDgxNzYsLTg5MT
+E5MjYxNCwtMjM3MTYyNjk1LC0yMDIxMTE5OTg2LC0yMzk3Mzcx
+NzIsNjE0MjI2NjEzLDE2MDg0NjA1MzIsLTE3NzYxMDY4MiwxNT
+M5MTI1NTgzLDg1NzkzMjIxMV19
 -->
