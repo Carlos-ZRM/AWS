@@ -93,17 +93,20 @@ Respuesta
 ## 3 Creación del código en el directorio code commit 
 Para hacer uso del codecommit es necesario que el usuario tenga politicas que le permitan acceder al repositorio. 
 ### Clonar el repositorio creado mediante https
-Puede acceder al repositorio codecommit mediante ssh o https
+Puede acceder al repositorio codecommit mediante ssh o https. Nosotros lo haremos con https
+
+```
+git clone  https://git-codecommit.us-west-2.amazonaws.com/v1/repos/MiRepositorio
 
 ``` 
-``´
+
 Docker crea una imagen con el comando **docker build .** y es  necesario agregar en el directorio raiz del proyecto git  archivo **Dockerfile** además de todos 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4Mzk5OTAxMiwxNTI5NDMwNzA1LC0xNT
-U4MDA4MTc2LC04OTExOTI2MTQsLTIzNzE2MjY5NSwtMjAyMTEx
-OTk4NiwtMjM5NzM3MTcyLDYxNDIyNjYxMywxNjA4NDYwNTMyLC
-0xNzc2MTA2ODIsMTUzOTEyNTU4Myw4NTc5MzIyMTFdfQ==
+eyJoaXN0b3J5IjpbLTE5MDY0MzU3ODQsMTUyOTQzMDcwNSwtMT
+U1ODAwODE3NiwtODkxMTkyNjE0LC0yMzcxNjI2OTUsLTIwMjEx
+MTk5ODYsLTIzOTczNzE3Miw2MTQyMjY2MTMsMTYwODQ2MDUzMi
+wtMTc3NjEwNjgyLDE1MzkxMjU1ODMsODU3OTMyMjExXX0=
 -->
