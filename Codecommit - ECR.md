@@ -98,15 +98,17 @@ Puede acceder al repositorio codecommit mediante ssh o https. Nosotros lo haremo
 ```
 git clone  https://git-codecommit.us-west-2.amazonaws.com/v1/repos/MiRepositorio
 
+cd MiRepositorio
 ``` 
 
-Docker crea una imagen con el comando **docker build .** y es  necesario agregar en el directorio raiz del proyecto git  archivo **Dockerfile** además de todos 
+Docker crea una imagen con el comando **docker build .** y es  necesario agregar en el directorio raiz del proyecto git  el archivo **Dockerfile** además de todos los elementos 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDY0MzU3ODQsMTUyOTQzMDcwNSwtMT
-U1ODAwODE3NiwtODkxMTkyNjE0LC0yMzcxNjI2OTUsLTIwMjEx
-MTk5ODYsLTIzOTczNzE3Miw2MTQyMjY2MTMsMTYwODQ2MDUzMi
-wtMTc3NjEwNjgyLDE1MzkxMjU1ODMsODU3OTMyMjExXX0=
+eyJoaXN0b3J5IjpbLTc1MTI5MDY1MywtMTkwNjQzNTc4NCwxNT
+I5NDMwNzA1LC0xNTU4MDA4MTc2LC04OTExOTI2MTQsLTIzNzE2
+MjY5NSwtMjAyMTExOTk4NiwtMjM5NzM3MTcyLDYxNDIyNjYxMy
+wxNjA4NDYwNTMyLC0xNzc2MTA2ODIsMTUzOTEyNTU4Myw4NTc5
+MzIyMTFdfQ==
 -->
