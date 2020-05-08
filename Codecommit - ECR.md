@@ -91,12 +91,12 @@ Respuesta
 }
 ```
 ## 3 Creación del código 
-Si es la primera vez que despliega una  imagen en docker
+Docker crea una imagen con el comando **docker build .** y es  necesario agregar el archivo **Dockerfile** además de todos 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1OTMxMDYxMCwxNTI5NDMwNzA1LC0xNT
+eyJoaXN0b3J5IjpbLTkxMDg1NDgyNCwxNTI5NDMwNzA1LC0xNT
 U4MDA4MTc2LC04OTExOTI2MTQsLTIzNzE2MjY5NSwtMjAyMTEx
 OTk4NiwtMjM5NzM3MTcyLDYxNDIyNjYxMywxNjA4NDYwNTMyLC
 0xNzc2MTA2ODIsMTUzOTEyNTU4Myw4NTc5MzIyMTFdfQ==
