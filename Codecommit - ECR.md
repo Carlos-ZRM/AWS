@@ -92,7 +92,7 @@ Respuesta
 ```
 ## 3 Creación del código en el directorio code commit 
 Para hacer uso del codecommit es necesario que el usuario tenga politicas que le permitan acceder al repositorio. 
-### Clonar el repositorio creado mediante https
+### 3.1 Clonar el repositorio creado mediante https
 Puede acceder al repositorio codecommit mediante ssh o https. Nosotros lo haremos con https
 
 ```
@@ -102,13 +102,14 @@ cd MiRepositorio
 ``` 
 
 Docker crea una imagen con el comando **docker build .** y es  necesario agregar en el directorio raiz del proyecto git  el archivo **Dockerfile** además de todos los elementos necesarios para construir la imagen.
-Es recomendable que primero construya la imagen en su equipo
+ ### 3.2 Construir la imagen en el repositorio local 
+ Es recomendable construir la imagen en su equipo e indentificar los comandos nec
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzY3NjgzNTYsLTE5MDY0MzU3ODQsMT
-UyOTQzMDcwNSwtMTU1ODAwODE3NiwtODkxMTkyNjE0LC0yMzcx
-NjI2OTUsLTIwMjExMTk5ODYsLTIzOTczNzE3Miw2MTQyMjY2MT
-MsMTYwODQ2MDUzMiwtMTc3NjEwNjgyLDE1MzkxMjU1ODMsODU3
-OTMyMjExXX0=
+eyJoaXN0b3J5IjpbODY2Mjc1NTgwLC0xOTA2NDM1Nzg0LDE1Mj
+k0MzA3MDUsLTE1NTgwMDgxNzYsLTg5MTE5MjYxNCwtMjM3MTYy
+Njk1LC0yMDIxMTE5OTg2LC0yMzk3MzcxNzIsNjE0MjI2NjEzLD
+E2MDg0NjA1MzIsLTE3NzYxMDY4MiwxNTM5MTI1NTgzLDg1Nzkz
+MjIxMV19
 -->
