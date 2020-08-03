@@ -8,6 +8,7 @@ AWS en una red virtual que usted defina. Puede controlar todos los aspectos del 
 - Subred: un rango de direcciones IP en su VPC. Pueden ser publicas o privadas
 
 - Tablas de ruteo: un conjunto de reglas que se utilizan para determinar hacia dónde se dirige el tráfico de red.
+	-  Cada regla en una tabla de ruteo especifica el rango de direcciones IP donde desea que vaya el tráfico (el destino) y la puerta de enlace, la interfaz de red o la conexión a través de la cual se envía el tráfico (el destino).
 
 - Puerta de enlace de Internet (Internet gateway) : Es una puerta de enlace que conecta una VPC para permitir la comunicación entre los recursos dentro de la VPC e Internet.
 
@@ -16,5 +17,6 @@ AWS en una red virtual que usted defina. Puede controlar todos los aspectos del 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MTM3NzQ1MSw5NDkxMDU0ODldfQ==
+eyJoaXN0b3J5IjpbLTQxMjAxMDEyLC05ODEzNzc0NTEsOTQ5MT
+A1NDg5XX0=
 -->
