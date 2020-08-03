@@ -9,12 +9,12 @@ AWS en una red virtual que usted defina. Puede controlar todos los aspectos del 
 
 - Tablas de ruteo: un conjunto de reglas que se utilizan para determinar hacia dónde se dirige el tráfico de red.
 
-- Puerta de enlace de Internet (Internet gateway) : una puerta de enlace que conecta a su VPC para permitir la comunicación entre los recursos de su VPC e Internet.
+- Puerta de enlace de Internet (Internet gateway) : Es una puerta de enlace que conecta una VPC para permitir la comunicación entre los recursos dentro de la VPC e Internet.
 
-- Punto final de VPC (VPC endpoint ): Le permite conectar de forma privada su VPC a los servicios de AWS compatibles y a los servicios de punto final de VPC con tecnología PrivateLink sin necesidad de una puerta de enlace a Internet, dispositivo NAT, conexión VPN o conexión de conexión directa AWS. Las instancias en su VPC no requieren direcciones IP públicas para comunicarse con los recursos del servicio. El tráfico entre su VPC y el otro servicio no sale de la red de Amazon
+- Punto final de VPC (VPC endpoint ):  Permite conectar de forma privada las VPC a los servicios de AWS compatibles y a los servicios de punto final de VPC con tecnología PrivateLink sin necesidad de una puerta de enlace a Internet, dispositivo NAT, conexión VPN o conexión de conexión directa AWS. Las instancias en su VPC no requieren direcciones IP públicas para comunicarse con los recursos del servicio. El tráfico entre su VPC y el otro servicio no sale de la red de Amazon
  
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUwODgwNDM0LDk0OTEwNTQ4OV19
+eyJoaXN0b3J5IjpbLTk4MTM3NzQ1MSw5NDkxMDU0ODldfQ==
 -->
