@@ -173,6 +173,7 @@ aws ec2 create-route --route-table-id rtb-xxxxx --destination-cidr-block 0.0.0.0
 
 ##### Asignar subredes privadas a la tabla de routeo 
 
+
  
 
  
@@ -181,7 +182,7 @@ aws ec2 create-route --route-table-id rtb-xxxxx --destination-cidr-block 0.0.0.0
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzk3NjgyODgsMTIyNDA1Nzk2Myw5OD
-Y2ODIxNjUsMTc4MDIyNDgzMCwtMTY0MzM1OTI0NywtMTc5MTQx
-MTE2OCwtMTY3MzQ4MTM1Ml19
+eyJoaXN0b3J5IjpbOTUxMDE5MjUwLDEyMjQwNTc5NjMsOTg2Nj
+gyMTY1LDE3ODAyMjQ4MzAsLTE2NDMzNTkyNDcsLTE3OTE0MTEx
+NjgsLTE2NzM0ODEzNTJdfQ==
 -->
