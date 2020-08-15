@@ -193,15 +193,16 @@ aws ec2 create-security-group --group-name web-server --description "Security gr
 
 ####  Agregar reglas de entrada
 
-HT
+HTTP
+
 ```console
 aws ec2 authorize-security-group-ingress --group-id sg-xxxxx --protocol tcp --port 80 --cidr 0.0.0.0/0 --profile cuenta --region us-east-1
  ``` 
-
+HTTPS
 ```console
 aws ec2 authorize-security-group-ingress --group-id sg-xxxxx --protocol tcp --port 443 --cidr 0.0.0.0/0 --profile cuenta --region us-east-1
  ``` 
-
+SSH
 ```console
 aws ec2 authorize-security-group-ingress --group-id sg-xxxx --protocol tcp --port 22 --cidr 0.0.0.0/0 --profile cuenta --region us-east-1
  ``` 
@@ -212,7 +213,7 @@ aws ec2 authorize-security-group-ingress --group-id sg-xxxx --protocol tcp --por
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzM1MDQ0OTYsMTIyNDA1Nzk2Myw5OD
-Y2ODIxNjUsMTc4MDIyNDgzMCwtMTY0MzM1OTI0NywtMTc5MTQx
-MTE2OCwtMTY3MzQ4MTM1Ml19
+eyJoaXN0b3J5IjpbODM5NTc4NzUsMTIyNDA1Nzk2Myw5ODY2OD
+IxNjUsMTc4MDIyNDgzMCwtMTY0MzM1OTI0NywtMTc5MTQxMTE2
+OCwtMTY3MzQ4MTM1Ml19
 -->
