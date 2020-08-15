@@ -157,7 +157,16 @@ aws ec2 associate-route-table --subnet-id subnet-xxxxxx 	--route-table-id rtb-xx
 ```console
 aws ec2 describe-route-tables --route-table-id rtb-xxxxxx --profile cuenta --region us-east-1
  ``` 
-
+#### Tabla de routeo privada
+Se deben crear las tablas de routeo , crear las reglas y asignarlas a las subredes 
+##### Crear tabla de routeo privada
+ 
+ ```console
+aws ec2 create-route-table --vpc-id vpc-xxxxx --profile cuenta --region us-east-1
+ 
+aws ec2 create-tags --resources rtb-xxxxx --tags Key=Name,Value='Tabla privada' --profile cuenta --region us-east-1
+ ``` 
+##### Crear reglas 
 
  
 ```console
@@ -165,7 +174,7 @@ aws ec2 describe-route-tables --route-table-id rtb-xxxxxx --profile cuenta --reg
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNDA1Nzk2Myw5ODY2ODIxNjUsMTc4MD
-IyNDgzMCwtMTY0MzM1OTI0NywtMTc5MTQxMTE2OCwtMTY3MzQ4
-MTM1Ml19
+eyJoaXN0b3J5IjpbMjEzMjMyMjUzMSwxMjI0MDU3OTYzLDk4Nj
+Y4MjE2NSwxNzgwMjI0ODMwLC0xNjQzMzU5MjQ3LC0xNzkxNDEx
+MTY4LC0xNjczNDgxMzUyXX0=
 -->
