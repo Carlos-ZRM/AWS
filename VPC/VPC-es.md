@@ -141,9 +141,15 @@ aws ec2 create-tags --resources rtb-xxxxx --tags Key=Name,Value='Tabla publica' 
 aws ec2 create-route --route-table-id rtb-xxxxx --destination-cidr-block 0.0.0.0/0 --gateway-id igw-xxxxx \
 	 --profile cuenta --region us-east-1
  ``` 
-##### Asignar subredes publicas a la tabla de routeo
-###### Subred publica 1
+##### Asignar subredes publicas a la tabla de routeo 
 
+
+###### Subred publica 1
+ ```console
+aws ec2 associate-route-table --subnet-id subnet-xxxxx --route-table-id rtb-xxxxx \
+	 --profile cuenta --region us-east-1
+  ```
+  
 
  
 ```console
@@ -151,7 +157,7 @@ aws ec2 create-route --route-table-id rtb-xxxxx --destination-cidr-block 0.0.0.0
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5OTA1NTU4OSw5ODY2ODIxNjUsMTc4MD
-IyNDgzMCwtMTY0MzM1OTI0NywtMTc5MTQxMTE2OCwtMTY3MzQ4
-MTM1Ml19
+eyJoaXN0b3J5IjpbLTU3NDg4MjEsOTg2NjgyMTY1LDE3ODAyMj
+Q4MzAsLTE2NDMzNTkyNDcsLTE3OTE0MTExNjgsLTE2NzM0ODEz
+NTJdfQ==
 -->
