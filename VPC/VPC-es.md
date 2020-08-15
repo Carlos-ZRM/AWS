@@ -74,14 +74,26 @@ aws ec2 create-tags --resources subnet-xxxxxx --tags Key=Name,Value='Private Sub
 #### Zona de disponibilidad Virginia (us-east-1b)
 
 #####  Crear *Subred publica 2*  10.0.2.0/24 
+```console
+aws ec2 create-subnet --vpc-id vpc-xxxxx --cidr-block 10.0.2.0/24 --availability-zone us-east-1b       \
+	--profile cuenta --region us-east-1
+
+aws ec2 create-tags --resources subnet-xxxxx --tags Key=Name,Value='Public Subnet 2' \
+	--profile cuenta --region us-east-1
+``` 
 
 #####  Crear  *Subred privada 2* 10.0.3.0/24 
+```console
+aws ec2 create-subnet --vpc-id vpc-xxxxx --cidr-block 10.0.3.0/24 --availability-zone us-east-1b --profile cuenta --region us-east-1
+
+aws ec2 create-tags --resources subnet-xxxxxx --tags Key=Name,Value='Private Subnet 2' --profile cuenta --region us-east-1
+``` 
 
 ```console
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjQ4MDIwMDksMTc4MDIyNDgzMCwtMT
-Y0MzM1OTI0NywtMTc5MTQxMTE2OCwtMTY3MzQ4MTM1Ml19
+eyJoaXN0b3J5IjpbMTkwOTQ1NDE3NiwxNzgwMjI0ODMwLC0xNj
+QzMzU5MjQ3LC0xNzkxNDExMTY4LC0xNjczNDgxMzUyXX0=
 -->
