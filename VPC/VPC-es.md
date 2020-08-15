@@ -11,17 +11,18 @@ AWS en una red virtual que usted defina. Puede controlar todos los aspectos del 
 	-  Cada regla en una tabla de ruteo especifica el rango de direcciones IP donde desea que vaya el tráfico (el destino) y la puerta de enlace, la interfaz de red o la conexión a través de la cual se envía el tráfico (el destino).
 	-  Red privada
 		-  Las instancias en la subred privada no pueden. enviar tráfico de salida directamente a Internet
+		- Las instancias de la subred privada pueden obtener acceso a Internet utilizando una gateway de traducción de dirección de red (NAT) que reside en la subred pública
 	- Red  publica
 		- Las instancias de la subred pública pueden enviar tráfico de salida directamente a Internet
-		- , mientras que En cambio, las instancias de la subred privada pueden obtener acceso a Internet utilizando una gateway de traducción de dirección de red (NAT) que reside en la subred pública. Los servidores de base de datos pueden conectarse a Internet para las actualizaciones de software a través de la gateway NAT, pero Internet no puede establecer conexiones a los servidores de base de datos.
+
 
 - Puerta de enlace de Internet (Internet gateway) : Es una puerta de enlace que conecta una VPC para permitir la comunicación entre los recursos dentro de la VPC e Internet.
-
+- 
 - Punto final de VPC (VPC endpoint):  Permite conectar de forma privada las VPC a los servicios de AWS compatibles y a los servicios de punto final de VPC con tecnología PrivateLink sin necesidad de una puerta de enlace a Internet, dispositivo NAT, conexión VPN o conexión de conexión directa AWS. Las instancias en su VPC no requieren direcciones IP públicas para comunicarse con los recursos del servicio. El tráfico entre su VPC y el otro servicio no sale de la red de Amazon
  
  
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MTI5MjMzN119
+eyJoaXN0b3J5IjpbMTc3MTYzMDQxOV19
 -->
