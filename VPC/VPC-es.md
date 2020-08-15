@@ -15,14 +15,15 @@ AWS en una red virtual que usted defina. Puede controlar todos los aspectos del 
 	- Red  publica
 		- Las instancias de la subred pública pueden enviar tráfico de salida directamente a Internet
 
-
 - Puerta de enlace de Internet (Internet gateway) : Es una puerta de enlace que conecta una VPC para permitir la comunicación entre los recursos dentro de la VPC e Internet.
 - 
 - Punto final de VPC (VPC endpoint):  Permite conectar de forma privada las VPC a los servicios de AWS compatibles y a los servicios de punto final de VPC con tecnología PrivateLink sin necesidad de una puerta de enlace a Internet, dispositivo NAT, conexión VPN o conexión de conexión directa AWS. Las instancias en su VPC no requieren direcciones IP públicas para comunicarse con los recursos del servicio. El tráfico entre su VPC y el otro servicio no sale de la red de Amazon
  
- 
+ ## Diagrama de la VPC 
+ ![Diagrama del escenario 2: VPC con subredes públicas y privadas](https://docs.aws.amazon.com/es_es/vpc/latest/userguide/images/nat-gateway-diagram.png)
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MTYzMDQxOV19
+eyJoaXN0b3J5IjpbLTE2NzM0ODEzNTJdfQ==
 -->
