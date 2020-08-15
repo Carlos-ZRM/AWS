@@ -33,12 +33,19 @@ Crearemos una VPC en la  region de Virginia (**us-east-1**) que tenga subredes e
 - Tablas de routeo privada y publica
 -  Segurity group 
 
-## Crea
+## Creacion de la VPC
+### Crear una VPC 
+
+```console
+```
+
+
+
 ```console
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NDMyMjIwNywtMTc5MTQxMTE2OCwtMT
-Y3MzQ4MTM1Ml19
+eyJoaXN0b3J5IjpbLTE2NDg3ODI3NzEsLTE3OTE0MTExNjgsLT
+E2NzM0ODEzNTJdfQ==
 -->
