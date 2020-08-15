@@ -41,18 +41,18 @@ Se debe escoger un CIDR.
 ```console
 aws ec2 create-vpc --cidr-block 10.0.0.0/16 \
 	--profile cuenta --region us-east-1
-```
+ ```
 #### Agregar tag a la vpc 
 ```console
 aws ec2 create-tags --resources vpc-xxxxxx --tags Key=Name,Value=newDMZ \\
 	--profile cuenta --region us-east-1
-``` 
+ ``` 
 
 #### Habilitar DNS hostname 
 ```console
 aws ec2 modify-vpc-attribute --vpc-id vpc-xxxxxx --enable-dns-hostnames "{\"Value\":true}" \
 	--profile Jager --region us-east-1
-``` 
+ ``` 
 ### Crear subredes 
 Crear una sub red publica y otra privada en dos zonas de disponibilidad diferente 
 #### Zona de disponibilidad Virginia (us-east-1a)
@@ -62,7 +62,7 @@ aws ec2 create-subnet --vpc-id vpc-xxxxx --cidr-block 10.0.0.0/24 --availability
 
 aws ec2 create-tags --resources subnet-xxxxxx --tags Key=Name,Value='Public Subnet 1' \
 	--profile cuenta --region us-east-1
-``` 
+ ``` 
 #####  Crear  *Subred privada 1* 10.0.1.0/24 
 ```console
 aws ec2 create-subnet --vpc-id vpc-xxxxx --cidr-block 10.0.1.0/24 --availability-zone us-east-1a \
@@ -70,7 +70,7 @@ aws ec2 create-subnet --vpc-id vpc-xxxxx --cidr-block 10.0.1.0/24 --availability
 
 aws ec2 create-tags --resources subnet-xxxxxx --tags Key=Name,Value='Private Subnet 1' \
 	--profile cuenta --region us-east-1
-```  
+ ```  
 #### Zona de disponibilidad Virginia (us-east-1b)
 
 #####  Crear *Subred publica 2*  10.0.2.0/24 
@@ -80,20 +80,25 @@ aws ec2 create-subnet --vpc-id vpc-xxxxx --cidr-block 10.0.2.0/24 --availability
 
 aws ec2 create-tags --resources subnet-xxxxx --tags Key=Name,Value='Public Subnet 2' \
 	--profile cuenta --region us-east-1
-``` 
+ ``` 
 
 #####  Crear  *Subred privada 2* 10.0.3.0/24 
 ```console
 aws ec2 create-subnet --vpc-id vpc-xxxxx --cidr-block 10.0.3.0/24 --availability-zone us-east-1b --profile cuenta --region us-east-1
 
 aws ec2 create-tags --resources subnet-xxxxxx --tags Key=Name,Value='Private Subnet 2' --profile cuenta --region us-east-1
-``` 
+ ``` 
+#### Mostrar VPC
+```console
+aws ec2 describe-subnets --filters "Name=vpc-id,Values=vpc-xxxxxx" --query 'Subnets[*].{ID:SubnetId,CIDR:CidrBlock}' --profile cuenta --region us-east-1
+ ``` 
+
 
 ```console
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwOTQ1NDE3NiwxNzgwMjI0ODMwLC0xNj
-QzMzU5MjQ3LC0xNzkxNDExMTY4LC0xNjczNDgxMzUyXX0=
+eyJoaXN0b3J5IjpbNzMyMTkxMDc3LDE3ODAyMjQ4MzAsLTE2ND
+MzNTkyNDcsLTE3OTE0MTExNjgsLTE2NzM0ODEzNTJdfQ==
 -->
