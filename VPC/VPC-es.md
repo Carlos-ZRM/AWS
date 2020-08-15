@@ -53,13 +53,15 @@ aws ec2 create-tags --resources vpc-xxxxxx --tags Key=Name,Value=newDMZ \\
 aws ec2 modify-vpc-attribute --vpc-id vpc-xxxxxx --enable-dns-hostnames "{\"Value\":true}" \\
 	--profile Jager --region us-east-1
 ``` 
-
-
+### Crear subredes 
+Crear una sub red publica y otra privada en dos zonas de disponibilidad diferente 
+#### Zona de disponibilidad Virginia (us-east-1a)
+crear Subred
 ```console
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDM5OTczNzIsLTE2NDMzNTkyNDcsLT
+eyJoaXN0b3J5IjpbLTIwMTk2NjAwNzIsLTE2NDMzNTkyNDcsLT
 E3OTE0MTExNjgsLTE2NzM0ODEzNTJdfQ==
 -->
