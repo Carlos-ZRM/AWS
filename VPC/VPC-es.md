@@ -118,17 +118,17 @@ aws ec2 allocate-address --profile cuenta --region us-east-1
 ```console
 aws ec2 create-nat-gateway --subnet-id subnet-xxxxx --allocation-id eipalloc-xxxxx \
 	--profile cuenta --region us-east-1
+
+aws ec2 create-tags --resources nat-xxxxx --tags Key=Name,Value='newDMZ-int' \
+	 --profile cuenta --region us-east-1
  ``` 
 
-```console
-aws ec2 create-tags --resources nat-xxxxx --tags Key=Name,Value='newDMZ-int' --profile cuenta --region us-east-1
-``` 
 
 ```console
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE3NTM2OTI4LDE3ODAyMjQ4MzAsLTE2ND
-MzNTkyNDcsLTE3OTE0MTExNjgsLTE2NzM0ODEzNTJdfQ==
+eyJoaXN0b3J5IjpbLTE0OTA3NTMzMTcsMTc4MDIyNDgzMCwtMT
+Y0MzM1OTI0NywtMTc5MTQxMTE2OCwtMTY3MzQ4MTM1Ml19
 -->
