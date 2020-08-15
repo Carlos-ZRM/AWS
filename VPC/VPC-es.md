@@ -143,13 +143,21 @@ aws ec2 create-route --route-table-id rtb-xxxxx --destination-cidr-block 0.0.0.0
  ``` 
 ##### Asignar subredes publicas a la tabla de routeo 
 
-
 ###### Subred publica 1
  ```console
 aws ec2 associate-route-table --subnet-id subnet-xxxxx --route-table-id rtb-xxxxx \
 	 --profile cuenta --region us-east-1
   ```
-  
+###### Subred publica 2
+```console
+aws ec2 associate-route-table --subnet-id subnet-xxxxxx 	--route-table-id rtb-xxxxx \
+	--profile cuenta --region us-east-1
+ ``` 
+##### Mostrar tabla de routeo 
+```console
+aws ec2 describe-route-tables --route-table-id rtb-xxxxxx --profile cuenta --region us-east-1
+ ``` 
+
 
  
 ```console
@@ -157,7 +165,7 @@ aws ec2 associate-route-table --subnet-id subnet-xxxxx --route-table-id rtb-xxxx
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NDg4MjEsOTg2NjgyMTY1LDE3ODAyMj
-Q4MzAsLTE2NDMzNTkyNDcsLTE3OTE0MTExNjgsLTE2NzM0ODEz
-NTJdfQ==
+eyJoaXN0b3J5IjpbMTIyNDA1Nzk2Myw5ODY2ODIxNjUsMTc4MD
+IyNDgzMCwtMTY0MzM1OTI0NywtMTc5MTQxMTE2OCwtMTY3MzQ4
+MTM1Ml19
 -->
