@@ -100,10 +100,24 @@ aws ec2 describe-subnets --filters "Name=vpc-id,Values=vpc-xxxxxx" --query 'Subn
 #####  Crear internet gateway
 ```console
 aws ec2 create-internet-gateway --profile cuenta --region us-east-1
+
+aws ec2 create-tags --resources igw-xxxxxxx --tags Key=Name,Value='newDMZ-igt' --profile cuenta --region us-east-1
+``` 
+#### Nat gatewat
+
+### Asigar IP publica
+``` 
+aws ec2 allocate-address --profile cuenta --region us-east-1
+``` 
+
+### create nat gateway
+
+```console
+aws ec2 create-nat-gateway --subnet-id subnet-xxxxx --allocation-id eipalloc-0a87531905bd5ba61 --profile cuenta --region us-east-1
 ``` 
 
 ```console
-aws ec2 create-tags --resources igw-042a0a39b77a629d8 --tags Key=Name,Value='newDMZ-igt' --profile cuenta --region us-east-1
+aws ec2 create-tags --resources nat-xxxxx --tags Key=Name,Value='newDMZ-int' --profile cuenta --region us-east-1
 ``` 
 
 ```console
@@ -111,6 +125,6 @@ aws ec2 create-tags --resources igw-042a0a39b77a629d8 --tags Key=Name,Value='new
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MzYwNzk5NywxNzgwMjI0ODMwLC0xNj
-QzMzU5MjQ3LC0xNzkxNDExMTY4LC0xNjczNDgxMzUyXX0=
+eyJoaXN0b3J5IjpbODQ2MTAyNDg1LDE3ODAyMjQ4MzAsLTE2ND
+MzNTkyNDcsLTE3OTE0MTExNjgsLTE2NzM0ODEzNTJdfQ==
 -->
