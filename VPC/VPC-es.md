@@ -19,12 +19,14 @@ AWS en una red virtual que usted defina. Puede controlar todos los aspectos del 
 - Grupos de seguridad Los grupos de seguridad controlan el tráfico de entrada y salida de las instancias . 
 - Punto final de VPC (VPC endpoint):  Permite conectar de forma privada las VPC a los servicios de AWS compatibles y a los servicios de punto final de VPC con tecnología PrivateLink sin necesidad de una puerta de enlace a Internet, dispositivo NAT, conexión VPN o conexión de conexión directa AWS. Las instancias en su VPC no requieren direcciones IP públicas para comunicarse con los recursos del servicio. El tráfico entre su VPC y el otro servicio no sale de la red de Amazon
  
- ## Diagrama de la VPC 
+## Diagrama de la VPC 
+
+Crearemos una VPC que tenga subredes en dos zonas de disponibilidad diferentes 
  ![Diagrama del escenario 2: VPC con subredes públicas y privadas](https://docs.aws.amazon.com/es_es/vpc/latest/userguide/images/nat-gateway-diagram.png)
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTE0MTExNjgsLTE2NzM0ODEzNTJdfQ
-==
+eyJoaXN0b3J5IjpbLTIzMzg0MzA0NiwtMTc5MTQxMTE2OCwtMT
+Y3MzQ4MTM1Ml19
 -->
