@@ -56,7 +56,7 @@ aws ec2 modify-vpc-attribute --vpc-id vpc-xxxxxx --enable-dns-hostnames "{\"Valu
 ### Crear subredes 
 Crear una sub red publica y otra privada en dos zonas de disponibilidad diferente 
 #### Zona de disponibilidad Virginia (us-east-1a)
-#####  Crear *Subred publica 1  10.0.0.0/24 
+#####  Crear *Subred publica 1*  10.0.0.0/24 
 ```console
 aws ec2 create-subnet --vpc-id vpc-xxxxx --cidr-block 10.0.0.0/24 --availability-zone us-east-1a --profile Jag --region us-east-1
 
@@ -65,18 +65,23 @@ aws ec2 create-tags --resources subnet-xxxxxx --tags Key=Name,Value='Public Subn
 ``` 
 #####  Crear  *Subred privada 1* 10.0.1.0/24 
 ```console
-aws ec2 create-subnet --vpc-id vpc-0ccffd71d42081528 --cidr-block 10.0.1.0/24 --availability-zone us-east-1a \
+aws ec2 create-subnet --vpc-id vpc-xxxxx --cidr-block 10.0.1.0/24 --availability-zone us-east-1a \
 	--profile cuenta --region us-east-1
 
-aws ec2 create-tags --resources subnet-045c4a014f9c9ca9e --tags Key=Name,Value='Private Subnet 1' \
+aws ec2 create-tags --resources subnet-xxxxxx --tags Key=Name,Value='Private Subnet 1' \
 	--profile cuenta --region us-east-1
 ```  
+#### Zona de disponibilidad Virginia (us-east-1b)
+
+#####  Crear *Subred publica 2*  10.0.2.0/24 
+
+#####  Crear  *Subred privada 2* 10.0.3.0/24 
 
 ```console
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyOTE3NzI0MCwxNzgwMjI0ODMwLC0xNj
-QzMzU5MjQ3LC0xNzkxNDExMTY4LC0xNjczNDgxMzUyXX0=
+eyJoaXN0b3J5IjpbLTIwNjQ4MDIwMDksMTc4MDIyNDgzMCwtMT
+Y0MzM1OTI0NywtMTc5MTQxMTE2OCwtMTY3MzQ4MTM1Ml19
 -->
