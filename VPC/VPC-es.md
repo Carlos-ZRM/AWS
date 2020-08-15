@@ -125,12 +125,13 @@ aws ec2 create-tags --resources nat-xxxxx --tags Key=Name,Value='newDMZ-int' \
 
 ###  Crear tablas de routeo 
 
-
+#### Tabla de routeo publica 
 ```console
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg2NjgyMTY1LDE3ODAyMjQ4MzAsLTE2ND
-MzNTkyNDcsLTE3OTE0MTExNjgsLTE2NzM0ODEzNTJdfQ==
+eyJoaXN0b3J5IjpbLTEzNjM2NzI4MzAsOTg2NjgyMTY1LDE3OD
+AyMjQ4MzAsLTE2NDMzNTkyNDcsLTE3OTE0MTExNjgsLTE2NzM0
+ODEzNTJdfQ==
 -->
