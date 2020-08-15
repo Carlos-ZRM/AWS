@@ -50,7 +50,7 @@ aws ec2 create-tags --resources vpc-xxxxxx --tags Key=Name,Value=newDMZ \\
 
 #### Habilitar DNS hostname 
 ```console
-aws ec2 modify-vpc-attribute --vpc-id vpc-xxxxxx --enable-dns-hostnames "{\"Value\":true}" \\
+aws ec2 modify-vpc-attribute --vpc-id vpc-xxxxxx --enable-dns-hostnames "{\"Value\":true}" \
 	--profile Jager --region us-east-1
 ``` 
 ### Crear subredes 
@@ -60,7 +60,7 @@ Crear una sub red publica y otra privada en dos zonas de disponibilidad diferent
 ```console
 aws ec2 create-subnet --vpc-id vpc-xxxxx --cidr-block 10.0.0.0/24 --availability-zone us-east-1a --profile Jag --region us-east-1
 
-aws ec2 create-tags --resources subnet-071dcf34ae9fcf0cb --tags Key=Name,Value='Public Subnet 1' --profile Jager --region us-east-1
+aws ec2 create-tags --resources subnet-xxxxxx --tags Key=Name,Value='Public Subnet 1' --profile Jager --region us-east-1
 ``` 
 #####  Crear  *Subred privada 1*
  
@@ -69,6 +69,6 @@ aws ec2 create-tags --resources subnet-071dcf34ae9fcf0cb --tags Key=Name,Value='
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NzE2MTc5NCwtMTY0MzM1OTI0NywtMT
+eyJoaXN0b3J5IjpbMTI0OTAxNDA2MSwtMTY0MzM1OTI0NywtMT
 c5MTQxMTE2OCwtMTY3MzQ4MTM1Ml19
 -->
