@@ -40,9 +40,13 @@ Se debe escoger un CIDR.
 
 ```console
 aws ec2 create-vpc --cidr-block 10.0.0.0/16 \
-	--profile Jager --region us-east-1
+	--profile Profile --region us-east-1
 ```
 #### Agregar tag a la vpc 
+```console
+aws ec2 create-tags --resources vpc-xxxxxx --tags Key=Name,Value=newDMZ \\
+	--profile Jager --region us-east-1
+``` 
 
 
 
@@ -51,6 +55,6 @@ aws ec2 create-vpc --cidr-block 10.0.0.0/16 \
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NjA1Mzg0OSwtMTc5MTQxMTE2OCwtMT
-Y3MzQ4MTM1Ml19
+eyJoaXN0b3J5IjpbLTE1NTkyNjIzMTcsLTE3OTE0MTExNjgsLT
+E2NzM0ODEzNTJdfQ==
 -->
