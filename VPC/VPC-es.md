@@ -47,7 +47,12 @@ aws ec2 create-vpc --cidr-block 10.0.0.0/16 \
 aws ec2 create-tags --resources vpc-xxxxxx --tags Key=Name,Value=newDMZ \\
 	--profile Jager --region us-east-1
 ``` 
+
 #### Habilitar DNS hostname 
+```console
+aws ec2 modify-vpc-attribute --vpc-id vpc-xxxxxx --enable-dns-hostnames "{\"Value\":true}" \\
+	--profile Jager --region us-east-1
+``` 
 
 
 ```console
@@ -55,6 +60,6 @@ aws ec2 create-tags --resources vpc-xxxxxx --tags Key=Name,Value=newDMZ \\
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDMzNTkyNDcsLTE3OTE0MTExNjgsLT
-E2NzM0ODEzNTJdfQ==
+eyJoaXN0b3J5IjpbLTIwNDM5OTczNzIsLTE2NDMzNTkyNDcsLT
+E3OTE0MTExNjgsLTE2NzM0ODEzNTJdfQ==
 -->
