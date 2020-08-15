@@ -123,12 +123,14 @@ aws ec2 create-tags --resources nat-xxxxx --tags Key=Name,Value='newDMZ-int' \
 	 --profile cuenta --region us-east-1
  ``` 
 
+###  Crear tablas de routeo 
+
 
 ```console
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTA3NTMzMTcsMTc4MDIyNDgzMCwtMT
-Y0MzM1OTI0NywtMTc5MTQxMTE2OCwtMTY3MzQ4MTM1Ml19
+eyJoaXN0b3J5IjpbOTg2NjgyMTY1LDE3ODAyMjQ4MzAsLTE2ND
+MzNTkyNDcsLTE3OTE0MTExNjgsLTE2NzM0ODEzNTJdfQ==
 -->
