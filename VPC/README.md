@@ -58,7 +58,8 @@ aws ec2 modify-vpc-attribute --vpc-id vpc-xxxxxx --enable-dns-hostnames "{\"Valu
 ### 1.2. Crear subredes 
 Crear una sub red publica y otra privada en dos zonas de disponibilidad diferente 
 | Nombre | Zona de disponibilidad | IP |
-|-----------|----------------------------|
+|--------|------------------------|----|
+|Subred publica 1 | |10.0.0.0/24 |
 #### Zona de disponibilidad Virginia (us-east-1a)
 #####  Crear *Subred publica 1*  10.0.0.0/24 
 ```console
@@ -217,5 +218,5 @@ aws ec2 authorize-security-group-ingress --group-id sg-xxxx --protocol tcp --por
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNjQ2NTIzMF19
+eyJoaXN0b3J5IjpbLTEyOTEyMzc0ODVdfQ==
 -->
