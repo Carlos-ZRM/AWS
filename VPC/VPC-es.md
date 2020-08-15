@@ -184,8 +184,27 @@ aws ec2 associate-route-table --subnet-id subnet-xxxxxx --route-table-id rtb-xxx
 ```console
 aws ec2 describe-route-tables --route-table-id rtb-xxxxxx --profile cuenta --region us-east-1
  ``` 
- ###  3. Crear grupo de seguridad
+
+###  3. Crear grupo de seguridad
  
+```console
+aws ec2 create-security-group --group-name web-server --description "Security group para servicios web " --vpc-id vpc-xxxx --profile cuenta --region us-east-1
+ ``` 
+
+####  Agregar reglas de entrada
+
+HT
+```console
+aws ec2 authorize-security-group-ingress --group-id sg-xxxxx --protocol tcp --port 80 --cidr 0.0.0.0/0 --profile cuenta --region us-east-1
+ ``` 
+
+```console
+aws ec2 authorize-security-group-ingress --group-id sg-xxxxx --protocol tcp --port 443 --cidr 0.0.0.0/0 --profile cuenta --region us-east-1
+ ``` 
+
+```console
+aws ec2 authorize-security-group-ingress --group-id sg-xxxx --protocol tcp --port 22 --cidr 0.0.0.0/0 --profile cuenta --region us-east-1
+ ``` 
 
  
 ```console
@@ -193,7 +212,7 @@ aws ec2 describe-route-tables --route-table-id rtb-xxxxxx --profile cuenta --reg
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NjYzNzg2MCwxMjI0MDU3OTYzLDk4Nj
-Y4MjE2NSwxNzgwMjI0ODMwLC0xNjQzMzU5MjQ3LC0xNzkxNDEx
-MTY4LC0xNjczNDgxMzUyXX0=
+eyJoaXN0b3J5IjpbLTE3NzM1MDQ0OTYsMTIyNDA1Nzk2Myw5OD
+Y2ODIxNjUsMTc4MDIyNDgzMCwtMTY0MzM1OTI0NywtMTc5MTQx
+MTE2OCwtMTY3MzQ4MTM1Ml19
 -->
