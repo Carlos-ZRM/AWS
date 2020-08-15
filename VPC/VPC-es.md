@@ -28,10 +28,9 @@ Crearemos una VPC en la  region de Virginia (**us-east-1**) que tenga subredes e
 ### Recursos AWS necesarios 
 - 1. VPC
 	- 1.2. Subredes publicas y subredes privadas
-- 2. Internet gateway 
-- 3. Nat gateway
-- 4. Tablas de routeo privada y publica
-- 5. Segurity group 
+- 2. Internet gateway y Nat gateway
+- 3. Tablas de routeo privada y publica
+- 4. Segurity group 
 
 ## 1. Creacion de la VPC
 Es importante guardar los id de los recursos que se han creado
@@ -94,14 +93,24 @@ aws ec2 create-tags --resources subnet-xxxxxx --tags Key=Name,Value='Private Sub
 aws ec2 describe-subnets --filters "Name=vpc-id,Values=vpc-xxxxxx" --query 'Subnets[*].{ID:SubnetId,CIDR:CidrBlock}' --profile cuenta --region us-east-1
  ``` 
 
-### Crear internet gatega
+### 2. Crear internet gateway y nat gateway
 
+#### Internet gateway
+
+#####  Crear internet gateway
+```console
+aws ec2 create-internet-gateway --profile cuenta --region us-east-1
+``` 
+
+```console
+aws ec2 create-tags --resources igw-042a0a39b77a629d8 --tags Key=Name,Value='newDMZ-igt' --profile cuenta --region us-east-1
+``` 
 
 ```console
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYxODg1ODkxLDE3ODAyMjQ4MzAsLTE2ND
-MzNTkyNDcsLTE3OTE0MTExNjgsLTE2NzM0ODEzNTJdfQ==
+eyJoaXN0b3J5IjpbLTg2MzYwNzk5NywxNzgwMjI0ODMwLC0xNj
+QzMzU5MjQ3LC0xNzkxNDExMTY4LC0xNjczNDgxMzUyXX0=
 -->
