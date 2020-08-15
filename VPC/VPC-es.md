@@ -56,12 +56,14 @@ aws ec2 modify-vpc-attribute --vpc-id vpc-xxxxxx --enable-dns-hostnames "{\"Valu
 ### Crear subredes 
 Crear una sub red publica y otra privada en dos zonas de disponibilidad diferente 
 #### Zona de disponibilidad Virginia (us-east-1a)
-crear Subred
+Crear *Subred publica 1* 
+Crear  *Subred privada 1*
+ 
 ```console
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTk2NjAwNzIsLTE2NDMzNTkyNDcsLT
-E3OTE0MTExNjgsLTE2NzM0ODEzNTJdfQ==
+eyJoaXN0b3J5IjpbLTI2MjkxNDM3MywtMTY0MzM1OTI0NywtMT
+c5MTQxMTE2OCwtMTY3MzQ4MTM1Ml19
 -->
