@@ -9,6 +9,11 @@ AWS en una red virtual que usted defina. Puede controlar todos los aspectos del 
 
 - Tablas de ruteo: un conjunto de reglas que se utilizan para determinar hacia dónde se dirige el tráfico de red.
 	-  Cada regla en una tabla de ruteo especifica el rango de direcciones IP donde desea que vaya el tráfico (el destino) y la puerta de enlace, la interfaz de red o la conexión a través de la cual se envía el tráfico (el destino).
+	-  Red privada
+		-  Las instancias en la subred privada no pueden. enviar tráfico de salida directamente a Internet
+	- Red  publica
+		- Las instancias de la subred pública pueden enviar tráfico de salida directamente a Internet
+		- , mientras que En cambio, las instancias de la subred privada pueden obtener acceso a Internet utilizando una gateway de traducción de dirección de red (NAT) que reside en la subred pública. Los servidores de base de datos pueden conectarse a Internet para las actualizaciones de software a través de la gateway NAT, pero Internet no puede establecer conexiones a los servidores de base de datos.
 
 - Puerta de enlace de Internet (Internet gateway) : Es una puerta de enlace que conecta una VPC para permitir la comunicación entre los recursos dentro de la VPC e Internet.
 
@@ -18,5 +23,5 @@ AWS en una red virtual que usted defina. Puede controlar todos los aspectos del 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NTg5Njg5OF19
+eyJoaXN0b3J5IjpbLTY1MTI5MjMzN119
 -->
