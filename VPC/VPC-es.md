@@ -21,13 +21,15 @@ AWS en una red virtual que usted defina. Puede controlar todos los aspectos del 
  
 ## Diagrama de la VPC 
 
-Crearemos una VPC en la  region de Virginia (*us-east-1*) que tenga subredes en dos zonas de disponibilidad diferentes (*us-east-1a*,*us-east-1b*) . En cada zona  de disponibilidad hay una subred publica y una red privada.  
+Crearemos una VPC en la  region de Virginia (**us-east-1**) que tenga subredes en dos zonas de disponibilidad diferentes (**us-east-1a**,**us-east-1b**) . En cada zona  de disponibilidad hay una subred publica y una red privada. 
+
+ 
 
 ![Diagrama del escenario 2: VPC con subredes públicas y privadas](https://docs.aws.amazon.com/es_es/vpc/latest/userguide/images/nat-gateway-diagram.png)
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYzNjk1Njk3LC0xNzkxNDExMTY4LC0xNj
-czNDgxMzUyXX0=
+eyJoaXN0b3J5IjpbLTcxODYzODgzNywtMTc5MTQxMTE2OCwtMT
+Y3MzQ4MTM1Ml19
 -->
