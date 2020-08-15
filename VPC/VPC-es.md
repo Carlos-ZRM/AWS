@@ -84,13 +84,16 @@ aws ec2 create-tags --resources subnet-xxxxx --tags Key=Name,Value='Public Subne
 
 #####  Crear  *Subred privada 2* 10.0.3.0/24 
 ```console
-aws ec2 create-subnet --vpc-id vpc-xxxxx --cidr-block 10.0.3.0/24 --availability-zone us-east-1b --profile cuenta --region us-east-1
+aws ec2 create-subnet --vpc-id vpc-xxxxx --cidr-block 10.0.3.0/24 --availability-zone us-east-1b \
+	--profile cuenta --region us-east-1
 
-aws ec2 create-tags --resources subnet-xxxxxx --tags Key=Name,Value='Private Subnet 2' --profile cuenta --region us-east-1
+aws ec2 create-tags --resources subnet-xxxxxx --tags Key=Name,Value='Private Subnet 2' \
+	--profile cuenta --region us-east-1
  ``` 
 #### Mostrar VPC
 ```console
-aws ec2 describe-subnets --filters "Name=vpc-id,Values=vpc-xxxxxx" --query 'Subnets[*].{ID:SubnetId,CIDR:CidrBlock}' --profile cuenta --region us-east-1
+aws ec2 describe-subnets --filters "Name=vpc-id,Values=vpc-xxxxxx" --query 'Subnets[*].{ID:SubnetId,CIDR:CidrBlock}' \
+	--profile cuenta --region us-east-1
  ``` 
 
 ### 2. Crear internet gateway y nat gateway
@@ -102,19 +105,20 @@ aws ec2 describe-subnets --filters "Name=vpc-id,Values=vpc-xxxxxx" --query 'Subn
 aws ec2 create-internet-gateway --profile cuenta --region us-east-1
 
 aws ec2 create-tags --resources igw-xxxxxxx --tags Key=Name,Value='newDMZ-igt' --profile cuenta --region us-east-1
-``` 
+ ``` 
 #### Nat gatewat
 
-### Asigar IP publica
+#####  Asigar IP publica
 ``` 
 aws ec2 allocate-address --profile cuenta --region us-east-1
-``` 
+ ``` 
 
-### create nat gateway
+#### create nat gateway
 
 ```console
-aws ec2 create-nat-gateway --subnet-id subnet-xxxxx --allocation-id eipalloc-0a87531905bd5ba61 --profile cuenta --region us-east-1
-``` 
+aws ec2 create-nat-gateway --subnet-id subnet-xxxxx --allocation-id eipalloc-xxxxx \
+	--profile cuenta --region us-east-1
+ ``` 
 
 ```console
 aws ec2 create-tags --resources nat-xxxxx --tags Key=Name,Value='newDMZ-int' --profile cuenta --region us-east-1
@@ -125,6 +129,6 @@ aws ec2 create-tags --resources nat-xxxxx --tags Key=Name,Value='newDMZ-int' --p
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ2MTAyNDg1LDE3ODAyMjQ4MzAsLTE2ND
+eyJoaXN0b3J5IjpbMzE3NTM2OTI4LDE3ODAyMjQ4MzAsLTE2ND
 MzNTkyNDcsLTE3OTE0MTExNjgsLTE2NzM0ODEzNTJdfQ==
 -->
