@@ -26,15 +26,16 @@ Crearemos una VPC en la  region de Virginia (**us-east-1**) que tenga subredes e
 ![Diagrama del escenario 2: VPC con subredes públicas y privadas](https://docs.aws.amazon.com/es_es/vpc/latest/userguide/images/nat-gateway-diagram.png)
 
 ### Recursos AWS necesarios 
-- VPC
-- Subredes publicas y subredes privadas
-- Internet gateway 
-- Nat gateway
-- Tablas de routeo privada y publica
--  Segurity group 
+- 1. VPC
+	- Subredes publicas y subredes privadas
+- 2. Internet gateway 
+- 3. Nat gateway
+- 4. Tablas de routeo privada y publica
+- 5. Segurity group 
 
-## Creacion de la VPC
+## 1. Creacion de la VPC
 Es importante guardar los id de los recursos que se han creado
+
 ### Crear una VPC 
 Se debe escoger un CIDR. 
 
@@ -94,11 +95,12 @@ aws ec2 describe-subnets --filters "Name=vpc-id,Values=vpc-xxxxxx" --query 'Subn
  ``` 
 
 
+
 ```console
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMyMTkxMDc3LDE3ODAyMjQ4MzAsLTE2ND
-MzNTkyNDcsLTE3OTE0MTExNjgsLTE2NzM0ODEzNTJdfQ==
+eyJoaXN0b3J5IjpbOTI0NTk0OTcsMTc4MDIyNDgzMCwtMTY0Mz
+M1OTI0NywtMTc5MTQxMTE2OCwtMTY3MzQ4MTM1Ml19
 -->
