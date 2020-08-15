@@ -30,10 +30,12 @@ Crearemos una VPC en la  region de Virginia (**us-east-1**) que tenga subredes e
 - Subredes publicas y subredes privadas
 - Internet gateway 
 - Nat gateway
+- Tablas de routeo privada y publica
+-  Segurity group 
 - 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMDM2NzU5LC0xNzkxNDExMTY4LC0xNj
-czNDgxMzUyXX0=
+eyJoaXN0b3J5IjpbMTc5MzI5MjUwNiwtMTc5MTQxMTE2OCwtMT
+Y3MzQ4MTM1Ml19
 -->
