@@ -123,7 +123,7 @@ aws ec2 create-tags --resources nat-xxxxx --tags Key=Name,Value='newDMZ-int' \
 	 --profile cuenta --region us-east-1
  ``` 
 
-###  Crear tablas de routeo 
+###  3. Crear tablas de routeo 
 
 #### Tabla de routeo publica
 Se deben crear las tablas de routeo , crear las reglas y asignarlas a las subredes 
@@ -184,14 +184,16 @@ aws ec2 associate-route-table --subnet-id subnet-xxxxxx --route-table-id rtb-xxx
 ```console
 aws ec2 describe-route-tables --route-table-id rtb-xxxxxx --profile cuenta --region us-east-1
  ``` 
+ ###  3. Crear grupo de seguridad
  
+
  
 ```console
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDUwNTY2NDgsMTIyNDA1Nzk2Myw5OD
-Y2ODIxNjUsMTc4MDIyNDgzMCwtMTY0MzM1OTI0NywtMTc5MTQx
-MTE2OCwtMTY3MzQ4MTM1Ml19
+eyJoaXN0b3J5IjpbLTY4NjYzNzg2MCwxMjI0MDU3OTYzLDk4Nj
+Y4MjE2NSwxNzgwMjI0ODMwLC0xNjQzMzU5MjQ3LC0xNzkxNDEx
+MTY4LC0xNjczNDgxMzUyXX0=
 -->
