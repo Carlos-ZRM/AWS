@@ -135,12 +135,20 @@ aws ec2 create-route-table --vpc-id vpc-xxxxx \
 aws ec2 create-tags --resources rtb-xxxxx --tags Key=Name,Value='Tabla publica' \
 	--profile cuenta --region us-east-1
  ``` 
+##### Crear ruta
+ 
+ ```console
+aws ec2 create-route --route-table-id rtb-xxxxx --destination-cidr-block 0.0.0.0/0 --gateway-id igw-xxxxx \
+	 --profile cuenta --region us-east-1
+ ``` 
+###### A
+ 
 ```console
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI5OTkwMTg2LDk4NjY4MjE2NSwxNzgwMj
-I0ODMwLC0xNjQzMzU5MjQ3LC0xNzkxNDExMTY4LC0xNjczNDgx
-MzUyXX0=
+eyJoaXN0b3J5IjpbLTI5OTg0MTM2OSw5ODY2ODIxNjUsMTc4MD
+IyNDgzMCwtMTY0MzM1OTI0NywtMTc5MTQxMTE2OCwtMTY3MzQ4
+MTM1Ml19
 -->
