@@ -166,7 +166,14 @@ aws ec2 create-route-table --vpc-id vpc-xxxxx --profile cuenta --region us-east-
  
 aws ec2 create-tags --resources rtb-xxxxx --tags Key=Name,Value='Tabla privada' --profile cuenta --region us-east-1
  ``` 
-##### Crear reglas 
+##### Crear rutas 
+```console
+aws ec2 create-route --route-table-id rtb-xxxxx --destination-cidr-block 0.0.0.0/0 --nat-gateway-id nat-xxxxxx --profile cuenta --region us-east-1
+ ``` 
+
+##### Asignar subredes privadas a la tabla de routeo 
+
+ 
 
  
 ```console
@@ -174,7 +181,7 @@ aws ec2 create-tags --resources rtb-xxxxx --tags Key=Name,Value='Tabla privada' 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMjMyMjUzMSwxMjI0MDU3OTYzLDk4Nj
-Y4MjE2NSwxNzgwMjI0ODMwLC0xNjQzMzU5MjQ3LC0xNzkxNDEx
-MTY4LC0xNjczNDgxMzUyXX0=
+eyJoaXN0b3J5IjpbLTIwNzk3NjgyODgsMTIyNDA1Nzk2Myw5OD
+Y2ODIxNjUsMTc4MDIyNDgzMCwtMTY0MzM1OTI0NywtMTc5MTQx
+MTE2OCwtMTY3MzQ4MTM1Ml19
 -->
