@@ -21,12 +21,13 @@ AWS en una red virtual que usted defina. Puede controlar todos los aspectos del 
  
 ## Diagrama de la VPC 
 
-Crearemos una VPC que tenga subredes en dos zonas de disponibilidad diferentes 
- ![Diagrama del escenario 2: VPC con subredes públicas y privadas](https://docs.aws.amazon.com/es_es/vpc/latest/userguide/images/nat-gateway-diagram.png)
+Crearemos una VPC que tenga subredes en dos zonas de disponibilidad diferentes . En cada zona  de disponibilidad hay un
+
+![Diagrama del escenario 2: VPC con subredes públicas y privadas](https://docs.aws.amazon.com/es_es/vpc/latest/userguide/images/nat-gateway-diagram.png)
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMzg0MzA0NiwtMTc5MTQxMTE2OCwtMT
+eyJoaXN0b3J5IjpbMTQ4MTkyOTU3NywtMTc5MTQxMTE2OCwtMT
 Y3MzQ4MTM1Ml19
 -->
