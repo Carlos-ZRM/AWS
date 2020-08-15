@@ -34,14 +34,15 @@ Crearemos una VPC en la  region de Virginia (**us-east-1**) que tenga subredes e
 -  Segurity group 
 
 ## Creacion de la VPC
+Es importante guardar los id de los recursos que se han creado
 ### Crear una VPC 
 Se debe escoger un CIDR. 
 
 ```console
 aws ec2 create-vpc --cidr-block 10.0.0.0/16 \
 	--profile Jager --region us-east-1
-#### Agregar tag a la vpc
 ```
+#### Agregar tag a la vpc 
 
 
 
@@ -50,6 +51,6 @@ aws ec2 create-vpc --cidr-block 10.0.0.0/16 \
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3ODgzNzkzMCwtMTc5MTQxMTE2OCwtMT
+eyJoaXN0b3J5IjpbLTQ0NjA1Mzg0OSwtMTc5MTQxMTE2OCwtMT
 Y3MzQ4MTM1Ml19
 -->
