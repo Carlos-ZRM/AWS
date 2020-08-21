@@ -1,14 +1,64 @@
-# AWS
-## VPC
-Amazon Virtual Private Cloud (Amazon VPC) le permite lanzar recursos de AWS en una red virtual que haya definido. Dicha red virtual es prácticamente idéntica a las redes tradicionales que se utilizan en sus propios centros de datos, con los beneficios que supone utilizar la infraestructura escalable de AWS.
+# Curso AWS 
 
-## Lambda
+Hola a todos.
 
-Lambda permite ejecutar secuencias de código sin necesdad de desplegar o admnistrar servidores. Lamba ejecuta el código unicamente cuando se indica ( mediante eventos de DynamoDB o S3 bucket) y mantiene un escalado automatico. 
+Este curso tiene como finalidad compartir la experiencia y habilidades que hemos adquirido en el cómputo en la nube y en Amazon Web Services. El objetivo es crear recursos de video y técnicos que sirvan como introducción para las personas que desean aprender sobre AWS. Los recursos serán sencillos y rápidos para que puedan ser replicados sin necesidad de conocimientos técnicos especializados.
 
-## Crear hola mundo 
-- Abrir AWS Lambda Console
-- Create function
+  
+
+## Contenido
+
+Los temas estarán enfocados en la arquitectura de infraestructura y desarrollo de aplicaciones.
+
+### 1. Introducción a AWS
+
+Introducción al cómputo en la nube y a los servicios de cómputo, almacenamiento, bases de datos y redes proporcionados por AWS.
+
+  
+
+### 2. Arquitectura [ En construcción ]
+
+Despliegue de una arquitectura básica que contemple la tolerancia a fallos y alta disponibilidad en AWS.
+
+  
+
+#### 2.1 Creación de redes virtuales en AWS (VPC)
+
+#### 2.2 Creación de máquinas virtuales en AWS (EC2)
+
+#### 2.3 Creación de bases de datos en AWS (RDS)
+
+#### 2.3 Creación de balanceador de carga para aplicaciones en AWS (ALB)
+
+#### 2.4 Integración de estrategias de tolerancia a fallos.
+
+#### 2.5 Integración de estrategias de alta disponibilidad.
+
+#### 2.a Sandbox
+
+##### 2.a.1 Configuración de AWS CLI
+
+##### 2.a.2 Apagado y encendido de EC2 y RDS autómaticos
+
+  
+
+### 3. Desarrollo de aplicaciones serverless [ En planeación ]
+
+Desarrollo y despliegue de aplicaciones serverless en AWS
+
+#### 3.1 Herramientas de desarrollo en AWS ( Codecommit y Code pipeline)
+
+#### 3.2 Almacenamiento de objetos en AWS (S3)
+
+#### 3.3 Creación de funciones Lambda
+
+#### 3.a Sandbox
+
+##### 3.a.1 Creación de página web estática con S3, codecommit y code pipeline
+
+##### 3.a.2 Creación de página web con Lambda
+
+##### 3.a.3 Creación de chatbot con AWS.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3ODE1NjYzNl19
+eyJoaXN0b3J5IjpbLTUyMjU4NTAzMiwtMjc4MTU2NjM2XX0=
 -->
