@@ -1,13 +1,11 @@
 
-# Amazon Relational Database Service (RDS)
+# Amazon Elastic Compute Cloud (Amazon EC2)
 
 ## Índice 
-- 1. [Conceptos](#tag) 
-- 2. [RDS](#ec2)
-- 3. [RDS Aurora](#rds)
-
+- 1. [Conceptos](#conceptos) 
+## Conceptos <a name=""
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNTU4NDc2Ml19
+eyJoaXN0b3J5IjpbLTcwMzU2MTcwXX0=
 -->
