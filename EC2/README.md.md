@@ -3,9 +3,63 @@
 
 ## Índice 
 - 1. [Conceptos](#conceptos) 
+- 2. [Crear EC2](#ec2)
+- 3.  [Crear EC2](#ec2)
 ## Conceptos <a name="conceptos"></a>
+
+# Crear EC2 Instance
+## Requerimientos 
+
+- VPC id 
+- VPC subnet id subnet-071dcf34ae9fcf0cb
+- Security group id sg-099396fca8431b31d
+[Opcional] 
+- --user-data 
+
+
+## Crear llave 
+```console
+aws ec2 create-key-pair --key-name nueva-llave \
+	--output text --query 'KeyMaterial' \
+	--profile default --region us-east-1 > nueva-llave.pem
+
+chmod 400 nueva-llave.pem
+``` 
+## Crear instancia base
+
+aws ec2 run-instances --image-id ami-02354e95b39ca8dec \
+        --count 1 \
+        --instance-type t3a.micro \
+        --key-name nueva-llave \
+        --security-group-ids sg-id-securitygroup \
+        --subnet-id subnet-idsubnet \
+        --credit-specification CpuCredits=standard \
+        --associate-public-ip-address \
+        --block-device-mappings file://mapping.json \
+        --user-data file://my_script.txt \
+         --profile default --region us-east-1
+
+
+## Detener instancia base
+```console
+aws ec2 stop-instances --instance-ids i-idInstancia-creada
+```
+## Verificar estatus de la instancia 
+```console
+aws ec2 describe-instance-status --instance-id i-idInstancia-creada
+```
+## Crear imagen base
+```console
+aws ec2 create-image --instance-id i-idInstancia-creada \
+	--name "Mi Imagen" --description "Imagen que muestra la ip" \
+	--block-device-mappings file://mapping.json \
+	--profile default --region us-east-1
+```	
+aws ec2 create-tags --resources nat-009c8a650728f7bd9 --tags Key=Name,Value='Imagen base'\
+	--profile default --region us-east-1
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM3Mjc3NzI4XX0=
+eyJoaXN0b3J5IjpbOTIwNTE3NjMwLDYzNzI3NzcyOF19
 -->
