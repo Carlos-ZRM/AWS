@@ -44,6 +44,9 @@ Despliegue de una arquitectura básica que contemple la tolerancia a fallos y al
 ##### 2.a.2 Apagado y encendido de EC2 y RDS autómaticos
   [Ir](/EC2/Start-StopEC2)
   
+##### 2.a.3 Apagado y encendido de EC2 y RDS autómaticos
+  [Ir](/EC2/Start-StopEC2)
+  
 
 ### 3. Desarrollo de aplicaciones serverless [ En planeación ]
 
@@ -63,7 +66,7 @@ Desarrollo y despliegue de aplicaciones serverless en AWS
 
 ##### 3.a.3 Creación de chatbot con AWS.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mzk5Mzc2MzMsMTk4NDg5NDM5OCwtOD
+eyJoaXN0b3J5IjpbLTE5MzQzODMyMzYsMTk4NDg5NDM5OCwtOD
 A2OTM4MDMyLDg4MzAwOTQyMiw5NzI2MzA3MTUsLTI3ODE1NjYz
 Nl19
 -->
