@@ -29,11 +29,14 @@ aws ec2 describe-instances --output table \
 ## Describir RDS
 
 ```console
+aws rds describe-db-instances \
+	--query "DBInstances[*].{Endpoit:Endpoint.Address,name:DBInstanceIdentifier,Engine:Engine,EngineVersion:EngineVersion,GB:AllocatedStorage,Estatus:DBInstanceStatus}" \
+	--output table --region us-east-1 --profile default
 ```
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM0MDA5NjQxLDk1NDM1NTg1MCwxMjQxMD
-Q5ODAxXX0=
+eyJoaXN0b3J5IjpbMTA5MTk0MDI1Myw5NTQzNTU4NTAsMTI0MT
+A0OTgwMV19
 -->
