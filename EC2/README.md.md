@@ -11,8 +11,8 @@
 ### Requerimientos 
 
 - VPC id 
-- VPC subnet id subnet-071dcf34ae9fcf0cb
-- Security group id sg-099396fca8431b31d
+- VPC subnet id subnet-idSubredPublica
+- Security group id sg-securityGroup
 [Opcional] 
 - --user-data 
 
@@ -63,5 +63,5 @@ aws ec2 create-tags --resources ami-idImagenBase  --tags Key=Name,Value='Imagen 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI1MTE3NDIsNjM3Mjc3NzI4XX0=
+eyJoaXN0b3J5IjpbLTM0MTAyMzMxOCw2MzcyNzc3MjhdfQ==
 -->
