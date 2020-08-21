@@ -41,8 +41,8 @@ Despliegue de una arquitectura básica que contemple la tolerancia a fallos y al
 
 ##### 2.a.1  AWS CLI
 
-##### 2.a.2 Inventario de EC2 y RDS autómaticos
-  [Ir](/EC2/Start-StopEC2)
+##### 2.a.2 Inventario de EC2 y RDS 
+  [Ir](/AWS-CLI/Inventario.md)
   
 ##### 2.a.3 Apagado y encendido de EC2 y RDS autómaticos
   [Ir](/EC2/Start-StopEC2)
@@ -66,7 +66,7 @@ Desarrollo y despliegue de aplicaciones serverless en AWS
 
 ##### 3.a.3 Creación de chatbot con AWS.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNTIwNDY0NCwxOTg0ODk0Mzk4LC04MD
-Y5MzgwMzIsODgzMDA5NDIyLDk3MjYzMDcxNSwtMjc4MTU2NjM2
-XX0=
+eyJoaXN0b3J5IjpbLTY4MjkzNzgsMTk4NDg5NDM5OCwtODA2OT
+M4MDMyLDg4MzAwOTQyMiw5NzI2MzA3MTUsLTI3ODE1NjYzNl19
+
 -->
