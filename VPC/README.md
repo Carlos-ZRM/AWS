@@ -2,8 +2,11 @@
 # VPC Amazon Virtual Private Cloud
 
 AWS en una red virtual que usted defina. Puede controlar todos los aspectos del entorno de red virtual, incluida la selección de su propio rango de direcciones IP, la creación de subredes y la configuración de tablas de ruteo y gateways de red. Puede usar tanto IPv4 como IPv6 en su VPC para obtener acceso a recursos y aplicaciones de manera segura y sencilla
-
-## Conceptos
+## Índice 
+- 1. Conceptos 
+- 2. Diagrama de la VPC
+- 3. 
+## 1. Conceptos
 
 - Subred: un rango de direcciones IP en su VPC. Pueden ser publicas o privadas
 
@@ -222,5 +225,5 @@ aws ec2 authorize-security-group-ingress --group-id sg-xxxx --protocol tcp --por
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MzY4NTcxMl19
+eyJoaXN0b3J5IjpbLTM5NDk4Njg3MywtOTczNjg1NzEyXX0=
 -->
