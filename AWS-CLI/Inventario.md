@@ -10,11 +10,14 @@ Los tags nos permitiran filtrar los recursos AWS que deseemos utilizar o describ
 	- 1. [Conceptos](#conceptos) 
 - 2. [Diagrama de la VPC](#diagrama)
 - 3. [Creacion de la VPC](#creacion)
-## 1. Conceptos <a name="conceptos"></a>
+
+## Crear Tag 
+##  Describir EC2
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU0MzU1ODUwLDEyNDEwNDk4MDFdfQ==
+eyJoaXN0b3J5IjpbLTU2MjAwOTQsOTU0MzU1ODUwLDEyNDEwND
+k4MDFdfQ==
 -->
