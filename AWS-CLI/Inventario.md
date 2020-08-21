@@ -4,11 +4,11 @@
 AWS permite describir las característica de los recursos de AWS. Cada recurso posee diferentes características pero es posible asignarles Tags para asignarle nuevas propiedades.  
 
 ## Índice 
-- 1. [Tag](#conceptos) 
-- 2. [Describir EC2](#diagrama)
-- 3. [Describir RDS](#creacion)
+- 1. [Tag](#tag) 
+- 2. [Describir EC2](#ec2)
+- 3. [Describir RDS](#rds)
 
-##  Tag
+##  Tag 
 Un tag es una entrada ``<Clave:Valor>`` que se le puede asignar  a los siguientes recursos de AWS.
 Los tags nos permitiran filtrar los recursos AWS que deseemos utilizar o describir.    
 [Documentación](https://docs.aws.amazon.com/general/latest/gr/aws_tagging.html)
@@ -39,6 +39,6 @@ aws rds describe-db-instances \
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyOTg1NTI2NSwxMDkxOTQwMjUzLDk1ND
-M1NTg1MCwxMjQxMDQ5ODAxXX0=
+eyJoaXN0b3J5IjpbLTUzNDMzODE2OCwtNTI5ODU1MjY1LDEwOT
+E5NDAyNTMsOTU0MzU1ODUwLDEyNDEwNDk4MDFdfQ==
 -->
