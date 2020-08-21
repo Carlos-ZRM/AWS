@@ -8,7 +8,7 @@ Este curso tiene como finalidad compartir la experiencia y habilidades que hemos
 
 ## Contenido
 
-Los temas estarán enfocados en la arquitectura de infraestructura y desarrollo de aplicaciones.
+Los temas estarán enfocados en la arquitectura de infraestructura y desarrollo de aplicaciones. Utilizaremos varios recursos y tecnologías que ofrece AWS, algunas de ellas son: 
 
 ### 1. Introducción a AWS
 
@@ -66,7 +66,7 @@ Desarrollo y despliegue de aplicaciones serverless en AWS
 
 ##### 3.a.3 Creación de chatbot con AWS.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MjkzNzgsMTk4NDg5NDM5OCwtODA2OT
-M4MDMyLDg4MzAwOTQyMiw5NzI2MzA3MTUsLTI3ODE1NjYzNl19
-
+eyJoaXN0b3J5IjpbLTMyMjYxOTk5MiwtNjgyOTM3OCwxOTg0OD
+k0Mzk4LC04MDY5MzgwMzIsODgzMDA5NDIyLDk3MjYzMDcxNSwt
+Mjc4MTU2NjM2XX0=
 -->
