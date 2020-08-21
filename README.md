@@ -9,7 +9,7 @@ Este curso tiene como finalidad compartir la experiencia y habilidades que hemos
 ## Contenido
 
 Los temas estarán enfocados en la arquitectura de infraestructura y desarrollo de aplicaciones. Utilizaremos varios recursos y tecnologías que ofrece AWS, algunas de ellas son: 
-
+[imagen](AWS.png)
 ### 1. Introducción a AWS
 
 Introducción al cómputo en la nube y a los servicios de cómputo, almacenamiento, bases de datos y redes proporcionados por AWS.
@@ -66,7 +66,7 @@ Desarrollo y despliegue de aplicaciones serverless en AWS
 
 ##### 3.a.3 Creación de chatbot con AWS.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMjYxOTk5MiwtNjgyOTM3OCwxOTg0OD
-k0Mzk4LC04MDY5MzgwMzIsODgzMDA5NDIyLDk3MjYzMDcxNSwt
-Mjc4MTU2NjM2XX0=
+eyJoaXN0b3J5IjpbLTExMzY3MDA0MjIsLTY4MjkzNzgsMTk4ND
+g5NDM5OCwtODA2OTM4MDMyLDg4MzAwOTQyMiw5NzI2MzA3MTUs
+LTI3ODE1NjYzNl19
 -->
