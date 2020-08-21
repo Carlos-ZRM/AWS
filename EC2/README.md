@@ -5,9 +5,9 @@
 - 1. [Conceptos](#conceptos) 
 - 2. [Crear EC2](#ec2)
 - 3.  [Crear AMI](#ami)
-## Conceptos <a name="conceptos"></a>
+## 1. Conceptos <a name="conceptos"></a>
 
-## Crear instancia EC2  <a name="ec2"></a>
+## 2. Crear instancia EC2  <a name="ec2"></a>
 ### Requerimientos 
 
 - VPC id 
@@ -63,5 +63,5 @@ aws ec2 create-tags --resources ami-idImagenBase  --tags Key=Name,Value='Imagen 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNjAzODIxOV19
+eyJoaXN0b3J5IjpbMTcwMzEwNTgxMl19
 -->
