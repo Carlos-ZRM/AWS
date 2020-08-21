@@ -13,11 +13,15 @@ Los tags nos permitiran filtrar los recursos AWS que deseemos utilizar o describ
 
 ## Crear Tag 
 ##  Describir EC2
-
+```console
+aws ec2 describe-instances --output table \
+	--filter "Name=instance-state-name,Values=running" \
+	--query "Reservations[*].Instances[*].{Name:Tags[?Key=='Name']|[0].Value,estatus:Tags[?Key=='estatus']|[0].Value,cliente:Tags[?Key=='cliente']|[0].Value,rds:Tags[?Key=='endpoint']|[0].Value,tecnologia:Tags[?Key=='tecnologia']|[0].Value,responsable:Tags[?Key=='responsable']|[0].Value}"  --region $region --profile $profs
+```
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MjAwOTQsOTU0MzU1ODUwLDEyNDEwND
-k4MDFdfQ==
+eyJoaXN0b3J5IjpbLTExMjgyNDE3ODAsOTU0MzU1ODUwLDEyND
+EwNDk4MDFdfQ==
 -->
