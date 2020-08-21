@@ -14,7 +14,6 @@ Los temas estarán enfocados en la arquitectura de infraestructura y desarrollo 
 
 Introducción al cómputo en la nube y a los servicios de cómputo, almacenamiento, bases de datos y redes proporcionados por AWS.
 
-  
 
 ### 2. Arquitectura [ En construcción ]
 
@@ -60,5 +59,5 @@ Desarrollo y despliegue de aplicaciones serverless en AWS
 
 ##### 3.a.3 Creación de chatbot con AWS.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMjU4NTAzMiwtMjc4MTU2NjM2XX0=
+eyJoaXN0b3J5IjpbLTEwNjU0NTc3NTQsLTI3ODE1NjYzNl19
 -->
