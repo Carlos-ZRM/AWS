@@ -42,7 +42,7 @@ Despliegue de una arquitectura básica que contemple la tolerancia a fallos y al
 ##### 2.a.1  AWS CLI
 
 ##### 2.a.2 Apagado y encendido de EC2 y RDS autómaticos
-  [Ir](https://github.com/Carlos-ZRM/AWS/tree/master/EC2/Start-StopEC2)
+  [Ir](/EC2/Start-StopEC2)
   
 
 ### 3. Desarrollo de aplicaciones serverless [ En planeación ]
@@ -63,7 +63,7 @@ Desarrollo y despliegue de aplicaciones serverless en AWS
 
 ##### 3.a.3 Creación de chatbot con AWS.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDUzNDA4MzgsMTk4NDg5NDM5OCwtOD
-A2OTM4MDMyLDg4MzAwOTQyMiw5NzI2MzA3MTUsLTI3ODE1NjYz
-Nl19
+eyJoaXN0b3J5IjpbLTgwNzY4NTE3OCwxOTg0ODk0Mzk4LC04MD
+Y5MzgwMzIsODgzMDA5NDIyLDk3MjYzMDcxNSwtMjc4MTU2NjM2
+XX0=
 -->
