@@ -12,7 +12,12 @@ Los tags nos permitiran filtrar los recursos AWS que deseemos utilizar o describ
 - 3. [Creacion de la VPC](#creacion)
 
 ## Crear Tag 
-[
+```console
+aws ec2 create-tags --resources id-recurso \
+	--tags Key=Name,Value='Tabla privada' \
+	--profile default --region us-east-1
+
+```
 ##  Describir EC2
 
 ```console
@@ -25,6 +30,6 @@ aws ec2 describe-instances --output table \
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNzAwODE0MCw5NTQzNTU4NTAsMTI0MT
+eyJoaXN0b3J5IjpbMTUwNjA5OTM1OCw5NTQzNTU4NTAsMTI0MT
 A0OTgwMV19
 -->
