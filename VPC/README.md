@@ -35,10 +35,10 @@ Crearemos una VPC en la  region de Virginia (**us-east-1**) que tenga subredes e
 - 3. Tablas de routeo privada y publica
 - 4. Segurity group 
 
-## 1. Creacion de la VPC
+## 3. Creacion de la VPC
 Es importante guardar los id de los recursos que se han creado
 
-### Crear una VPC 
+### 1. Crear una VPC 
 
 Se debe escoger un CIDR. 
 
@@ -225,5 +225,5 @@ aws ec2 authorize-security-group-ingress --group-id sg-xxxx --protocol tcp --por
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNjc0NTEwNywtOTczNjg1NzEyXX0=
+eyJoaXN0b3J5IjpbLTg3Mzg2NjgyMiwtOTczNjg1NzEyXX0=
 -->
