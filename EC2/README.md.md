@@ -4,11 +4,11 @@
 ## Índice 
 - 1. [Conceptos](#conceptos) 
 - 2. [Crear EC2](#ec2)
-- 3.  [Crear EC2](#ec2)
+- 3.  [Crear AMI](#ami)
 ## Conceptos <a name="conceptos"></a>
 
-# Crear EC2 Instance
-## Requerimientos 
+## Crear instancia EC2  <a name="ec2"></a>
+### Requerimientos 
 
 - VPC id 
 - VPC subnet id subnet-071dcf34ae9fcf0cb
@@ -17,7 +17,7 @@
 - --user-data 
 
 
-## Crear llave 
+### Crear llave 
 ```console
 aws ec2 create-key-pair --key-name nueva-llave \
 	--output text --query 'KeyMaterial' \
@@ -25,7 +25,7 @@ aws ec2 create-key-pair --key-name nueva-llave \
 
 chmod 400 nueva-llave.pem
 ``` 
-## Crear instancia base
+### Crear instancia base
 
 aws ec2 run-instances --image-id ami-02354e95b39ca8dec \
         --count 1 \
@@ -39,12 +39,13 @@ aws ec2 run-instances --image-id ami-02354e95b39ca8dec \
         --user-data file://my_script.txt \
          --profile default --region us-east-1
 
-
-## Detener instancia base
+## Crear AMI <a name="conceptos"></a>
+### Detener instancia base
 ```console
 aws ec2 stop-instances --instance-ids i-idInstancia-creada
 ```
-## Verificar estatus de la instancia 
+
+### Verificar estatus de la instancia 
 ```console
 aws ec2 describe-instance-status --instance-id i-idInstancia-creada
 ```
@@ -61,5 +62,5 @@ aws ec2 create-tags --resources nat-009c8a650728f7bd9 --tags Key=Name,Value='Ima
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIwNTE3NjMwLDYzNzI3NzcyOF19
+eyJoaXN0b3J5IjpbMTkzNTgzMDI3LDYzNzI3NzcyOF19
 -->
