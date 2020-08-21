@@ -13,13 +13,14 @@ aws rds create-db-subnet-group --db-subnet-group-name DB-a-SubnetG \
 
 
 # Crear cluster de Aurora DB
+``` console
 aws rds create-db-cluster --db-cluster-identifier sample-cluster\
 	--engine aurora-mysql --engine-version 5.7.12 \
 	--master-username admin --master-user-password P4sSw0ord \
      	--db-subnet-group-name mysubnetgroup \
 	--vpc-security-group-ids sg-seg-group
-
+``` 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMjc3NjIzMV19
+eyJoaXN0b3J5IjpbLTE4MTEzMjM1MjRdfQ==
 -->
