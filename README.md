@@ -22,7 +22,7 @@ Despliegue de una arquitectura básica que contemple la tolerancia a fallos y al
   
 
 #### 2.1 Creación de redes virtuales en AWS (VPC)
-[https://github.com/Carlos-ZRM/AWS/tree/master/VPC/README.md](https://github.com/Carlos-ZRM/AWS/tree/master/VPC/README.md)
+[https://github.com/Carlos-ZRM/AWS/tree/master/VPC/README.md](https://github.com/Carlos-ZRM/AWS/tree/master/VPC/README.md). 
 
 #### 2.2 Creación de máquinas virtuales en AWS (EC2)
 
@@ -60,6 +60,6 @@ Desarrollo y despliegue de aplicaciones serverless en AWS
 
 ##### 3.a.3 Creación de chatbot con AWS.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MDg3ODg5LDk3MjYzMDcxNSwtMjc4MT
-U2NjM2XX0=
+eyJoaXN0b3J5IjpbLTUyMDcxOTg2OSw5NzI2MzA3MTUsLTI3OD
+E1NjYzNl19
 -->
