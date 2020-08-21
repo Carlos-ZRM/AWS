@@ -1,8 +1,7 @@
 
 # Inventario de EC2 y RDS 
 
-AWS permite describir los recursos de AWS 
-
+AWS permite describir las característica de los recursos de AWS. Cada recurso posee diferentes car
 ## Índice 
 - 1. [Conceptos](#conceptos) 
 - 2. [Diagrama de la VPC](#diagrama)
@@ -13,5 +12,5 @@ AWS permite describir los recursos de AWS
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg4MDAyOTQ2XX0=
+eyJoaXN0b3J5IjpbLTU2NDI1Njg1NF19
 -->
