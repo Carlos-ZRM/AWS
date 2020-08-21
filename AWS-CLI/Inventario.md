@@ -12,7 +12,9 @@ Los tags nos permitiran filtrar los recursos AWS que deseemos utilizar o describ
 - 3. [Creacion de la VPC](#creacion)
 
 ## Crear Tag 
+[
 ##  Describir EC2
+
 ```console
 aws ec2 describe-instances --output table \
 	--filter "Name=instance-state-name,Values=running" \
@@ -23,6 +25,6 @@ aws ec2 describe-instances --output table \
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MjQxMjMxNyw5NTQzNTU4NTAsMTI0MT
+eyJoaXN0b3J5IjpbMTEyNzAwODE0MCw5NTQzNTU4NTAsMTI0MT
 A0OTgwMV19
 -->
