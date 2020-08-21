@@ -5,7 +5,7 @@ AWS en una red virtual que usted defina. Puede controlar todos los aspectos del 
 ## Índice 
 - 1. Conceptos 
 - 2. Diagrama de la VPC
-- 3. 
+- 3. Creacion de la VPC
 ## 1. Conceptos
 
 - Subred: un rango de direcciones IP en su VPC. Pueden ser publicas o privadas
@@ -197,7 +197,7 @@ aws ec2 associate-route-table --subnet-id subnet-xxxxxx --route-table-id rtb-xxx
 aws ec2 describe-route-tables --route-table-id rtb-xxxxxx --profile cuenta --region us-east-1
  ``` 
 
-###  3. Crear grupo de seguridad
+###  4. Crear grupo de seguridad
  
 ```console
 aws ec2 create-security-group --group-name web-server --description "Security group para servicios web " --vpc-id vpc-xxxx --profile cuenta --region us-east-1
@@ -225,5 +225,5 @@ aws ec2 authorize-security-group-ingress --group-id sg-xxxx --protocol tcp --por
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NDk4Njg3MywtOTczNjg1NzEyXX0=
+eyJoaXN0b3J5IjpbMTEzNjc0NTEwNywtOTczNjg1NzEyXX0=
 -->
