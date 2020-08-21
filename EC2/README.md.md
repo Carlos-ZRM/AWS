@@ -24,9 +24,9 @@ aws ec2 create-key-pair --key-name nueva-llave \
 	--profile default --region us-east-1 > nueva-llave.pem
 
 chmod 400 nueva-llave.pem
-``` 
+ ``` 
 ### Crear instancia base
-
+```console
 aws ec2 run-instances --image-id ami-02354e95b39ca8dec \
         --count 1 \
         --instance-type t3a.micro \
@@ -38,7 +38,7 @@ aws ec2 run-instances --image-id ami-02354e95b39ca8dec \
         --block-device-mappings file://mapping.json \
         --user-data file://my_script.txt \
          --profile default --region us-east-1
-
+ ```
 ## Crear AMI <a name="conceptos"></a>
 ### Detener instancia base
 ```console
@@ -46,9 +46,10 @@ aws ec2 stop-instances --instance-ids i-idInstancia-creada
  ```
 
 ### Verificar estatus de la instancia 
+
 ```console
 aws ec2 describe-instance-status --instance-id i-idInstancia-creada
-```
+ ```
 ## Crear imagen base
 ```console
 aws ec2 create-image --instance-id i-idInstancia-creada \
@@ -62,5 +63,5 @@ aws ec2 create-tags --resources ami-idImagenBase  --tags Key=Name,Value='Imagen 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NTc3NjU4MSw2MzcyNzc3MjhdfQ==
+eyJoaXN0b3J5IjpbNzI1MTE3NDIsNjM3Mjc3NzI4XX0=
 -->
