@@ -25,9 +25,11 @@ Despliegue de una arquitectura básica que contemple la tolerancia a fallos y al
 [IR](https://github.com/Carlos-ZRM/AWS/tree/master/VPC/README.md). 
 
 #### 2.2 Creación de máquinas virtuales en AWS (EC2)
-[IR](https://github.com/Carlos-ZRM/AWS/tree/master/EC2)
+[IR](https://github.com/Carlos-ZRM/AWS/tree/master/EC2).  
 
 #### 2.3 Creación de bases de datos en AWS (RDS)
+##### RDS- Aurora
+RDS/RDS-Aurora.md
 
 #### 2.3 Creación de balanceador de carga para aplicaciones en AWS (ALB)
 
@@ -60,7 +62,7 @@ Desarrollo y despliegue de aplicaciones serverless en AWS
 
 ##### 3.a.3 Creación de chatbot con AWS.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTg4NDU5MDcsMTk4NDg5NDM5OCwtOD
-A2OTM4MDMyLDg4MzAwOTQyMiw5NzI2MzA3MTUsLTI3ODE1NjYz
-Nl19
+eyJoaXN0b3J5IjpbLTIyMjUzOTc0NSwxOTg0ODk0Mzk4LC04MD
+Y5MzgwMzIsODgzMDA5NDIyLDk3MjYzMDcxNSwtMjc4MTU2NjM2
+XX0=
 -->
