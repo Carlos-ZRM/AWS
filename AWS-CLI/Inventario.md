@@ -2,7 +2,7 @@
 # Inventario de EC2 y RDS 
 
 AWS permite describir las característica de los recursos de AWS. Cada recurso posee diferentes características pero es posible asignarles Tags para asignarle nuevas propiedades. 
-Un tag es una entrada  
+Un tag es una entrada ``<Clave:Valor>`` que se le puede asignar  a los siguientes recursos de AWS.   
 ## Índice 
 - 1. [Conceptos](#conceptos) 
 - 2. [Diagrama de la VPC](#diagrama)
@@ -13,5 +13,5 @@ Un tag es una entrada
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0ODA5NzY5N119
+eyJoaXN0b3J5IjpbMTI0MTA0OTgwMV19
 -->
