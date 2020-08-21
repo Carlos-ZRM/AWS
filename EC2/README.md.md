@@ -43,7 +43,7 @@ aws ec2 run-instances --image-id ami-02354e95b39ca8dec \
 ### Detener instancia base
 ```console
 aws ec2 stop-instances --instance-ids i-idInstancia-creada
-```
+ ```
 
 ### Verificar estatus de la instancia 
 ```console
@@ -55,12 +55,12 @@ aws ec2 create-image --instance-id i-idInstancia-creada \
 	--name "Mi Imagen" --description "Imagen que muestra la ip" \
 	--block-device-mappings file://mapping.json \
 	--profile default --region us-east-1
-```	
-aws ec2 create-tags --resources nat-009c8a650728f7bd9 --tags Key=Name,Value='Imagen base'\
+	
+aws ec2 create-tags --resources ami-idImagenBase  --tags Key=Name,Value='Imagen base'\
 	--profile default --region us-east-1
-```
+ ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNTgzMDI3LDYzNzI3NzcyOF19
+eyJoaXN0b3J5IjpbMTI5NTc3NjU4MSw2MzcyNzc3MjhdfQ==
 -->
