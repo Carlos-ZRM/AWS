@@ -36,7 +36,7 @@ Despliegue de una arquitectura básica que contemple la tolerancia a fallos y al
 
 #### 2.a Sandbox
 
-##### 2.a.1 Configuración de AWS CLI
+##### 2.a.1  AWS CLI
 
 ##### 2.a.2 Apagado y encendido de EC2 y RDS autómaticos
 
@@ -60,6 +60,6 @@ Desarrollo y despliegue de aplicaciones serverless en AWS
 
 ##### 3.a.3 Creación de chatbot con AWS.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgzMDA5NDIyLDk3MjYzMDcxNSwtMjc4MT
-U2NjM2XX0=
+eyJoaXN0b3J5IjpbLTgwNjkzODAzMiw4ODMwMDk0MjIsOTcyNj
+MwNzE1LC0yNzgxNTY2MzZdfQ==
 -->
