@@ -64,11 +64,11 @@ Desarrollo y despliegue de aplicaciones serverless en AWS
 
 ##### 3.a.1 Creación de página web estática con S3, codecommit y code pipeline
 
-##### 3.a.2 Creación de página web con Lambda
+##### 3.a.2 Creación de página web con AWS Lambda
 
 ##### 3.a.3 Creación de chatbot con AWS.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NTA3MTA4MywtMTEzNjcwMDQyMiwtNj
+eyJoaXN0b3J5IjpbLTYwMDUzNzUxOCwtMTEzNjcwMDQyMiwtNj
 gyOTM3OCwxOTg0ODk0Mzk4LC04MDY5MzgwMzIsODgzMDA5NDIy
 LDk3MjYzMDcxNSwtMjc4MTU2NjM2XX0=
 -->
