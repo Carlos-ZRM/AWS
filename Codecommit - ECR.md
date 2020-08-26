@@ -1,6 +1,6 @@
 
 
-# Integración de Codecommit con ECR
+# Integración de Codecommit con ECR git
 
 Esta automatización permitirá automatizar los cambios en un repositorio  git code commit y la construcción de una imagen en docker en el regestry de AWS ECR. Para hacerlo se utulizará la herramienta Code pipeline.
 
