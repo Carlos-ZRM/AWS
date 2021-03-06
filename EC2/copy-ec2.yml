@@ -1,0 +1,93 @@
+---
+# Copy info about two instance in diferent subnets and availability zone
+- name: create control prd instances
+  hosts: localhost
+  connection: local
+  gather_facts: no
+  vars:
+    # fixed Region
+    region: us-east-1
+    # change image id when AZ changed
+    ec2_old: i-xxxxxxxxxx
+    #fixed image ID
+    image_id: ami-xxxxxxxxxx
+    # fixed key id
+    key_name: carlos.zrm
+    # New name
+    name: ctl_new.preprod
+    assign_public_ip: true
+    #volume_size: 12
+    
+  vars_files:
+    - ../vault/aws-prd.yml
+
+  tasks:
+    - name: Facts
+      community.aws.ec2_instance_info:
+        aws_access_key: "{{ ec2_acces_key }}"
+        aws_secret_key: "{{ ec2_secret_key }}"
+        region: "{{ region }}"
+        instance_ids: "{{ ec2_old }}"
+      register: result
+      tags:
+        - facts
+
+    - name: Print all facts
+      debug:
+        var: result
+      tags:
+        - facts
+
+    - name: Print specific facts
+      debug:
+        msg:
+          - "{{ image_id | default('defaults') }}"
+          - "type: {{ result['instances'][0]['instance_type'] }} "
+          - "subnet: {{ result['instances'][0]['subnet_id'] }} "
+          - "key_name: {{ result['instances'][0]['key_name'] }} "
+          - "tags: {{ result['instances'][0]['tags'] }} "
+          - "ebs {{ result['instances'][0]['block_device_mappings'] }}"
+      tags:
+        - facts
+
+    - name: Get volumes facts
+      ec2_vol_info:
+        filters:
+          volume-id: "{{ item }}"
+      with_items: "{{ result['instances'][0]['block_device_mappings'][0]['ebs']['volume_id'] }}"
+      register: volumes_fact
+      tags:
+        - facts
+
+    - name: Print ebs facts
+      debug:
+        msg:
+          - "device_name : {{ volumes_fact['results'][0]['volumes'][0]['attachment_set']['device'] }}"
+          - "size : {{ volumes_fact['results'][0]['volumes'][0]['size'] }}"
+          - "delete : {{ volumes_fact['results'][0]['volumes'][0]['attachment_set']['delete_on_termination'] }}"
+      tags:
+        - facts
+
+    - name: Create EC2 Instance into prd environment 
+      community.aws.ec2_instance:
+        aws_access_key: "{{ec2_acces_key}}"
+        aws_secret_key: "{{ec2_secret_key}}"
+        name: "{{ name }}"
+        region: "{{ region }}"
+        image_id: "{{ image_id }}"
+        instance_type: "t2.micro"
+        #instance_type: "{{ instance_type }}"
+        vpc_subnet_id: "{{ result['instances'][0]['subnet_id']  }}"
+        key_name: "{{ key_name }}"
+        termination_protection: yes
+        network:
+          assign_public_ip: "{{ assign_public_ip }}"
+        volumes:
+          - device_name: "{{ volumes_fact['results'][0]['volumes'][0]['attachment_set']['device'] }}"
+            ebs:
+              volume_size: "{{ volumes_fact['results'][0]['volumes'][0]['size'] }}"
+              delete_on_termination: "{{ volumes_fact['results'][0]['volumes'][0]['attachment_set']['delete_on_termination'] }}"
+        #security_groups: "{{ security_groups }}"
+      register: ec2_vm
+      tags:
+        - ec2_vm
