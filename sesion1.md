@@ -9,7 +9,10 @@ Cuenta A
 - Crear role y asignar politica
 - Obtener ARN
 Cuenta B 
-- 
+- Crear grupo
+- Asignar politica
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNDU1NjE4MywxMTE0NzgyNjY2XX0=
+eyJoaXN0b3J5IjpbLTgzOTE3MDU3MCwxOTE0NTU2MTgzLDExMT
+Q3ODI2NjZdfQ==
 -->
