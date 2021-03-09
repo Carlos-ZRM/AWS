@@ -25,7 +25,13 @@ A policy is a JSON document that fully defines a set of permissions to access an
 - *Resource* ARN ** arn:aws:service:region:account-id:[resourcetype:]resource **
 - Action: Set and subset specific services actions. 
 - Condition: (Optionally) 
-
+~~~JSON
+{ 
+  "Version": "2012–10–17",
+  "Statement": [
+	  {
+	   "Sid": "Stmt1441716043000", "Effect": "Allow", <- This policy grants access "Action": [ <- Allows identities to list "s3:GetObject", <- and get objects in "s3:ListBucket" <- the S3 bucket ], "Condition": { "IpAddress": { <- Only from a specific "aws:SourceIp": "192.168.0.1" <- IP Address } }, "Resource": [ "arn:aws:s3:::my_public_bucket/*" <- Only this bucket ] } ] }
+~~~
 [https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html)
 
 # Práctica: Compartir permisos a tráves de cuentas AWS
@@ -58,7 +64,7 @@ Cuenta B
 ~~~
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTEyMjQwMjUsLTM5Njg5MDg1NCwxMT
-c2NDE2NDc3LC0xNTcwNjIxMTc5LDU1MzcyMzY1MSwxOTE0NTU2
-MTgzLDExMTQ3ODI2NjZdfQ==
+eyJoaXN0b3J5IjpbMjA1MTExODgxMywtMzk2ODkwODU0LDExNz
+Y0MTY0NzcsLTE1NzA2MjExNzksNTUzNzIzNjUxLDE5MTQ1NTYx
+ODMsMTExNDc4MjY2Nl19
 -->
