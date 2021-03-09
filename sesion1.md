@@ -6,6 +6,8 @@
 |Application Access | Active Directory, Application User Repositories, Amazon Cognito | 
 | AWS Resources | IAM |
 
+
+
 [https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html)
 
 # Práctica: Compartir permisos a tráves de cuentas AWS
@@ -38,6 +40,6 @@ Cuenta B
 ~~~
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUwODE5NjI1LDU1MzcyMzY1MSwxOTE0NT
-U2MTgzLDExMTQ3ODI2NjZdfQ==
+eyJoaXN0b3J5IjpbLTE1NzA2MjExNzksNTUzNzIzNjUxLDE5MT
+Q1NTYxODMsMTExNDc4MjY2Nl19
 -->
