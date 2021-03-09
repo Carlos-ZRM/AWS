@@ -1,3 +1,7 @@
+# Casos de uso
+
+Use Case Technology Solutions Operating System Access Active Directory LDAP Machine-specific accounts Application Access Active Directory Application User Repositories Amazon Cognito AWS Resources IAM
+
 [https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html)
 
 # Práctica: Compartir permisos a tráves de cuentas AWS
@@ -30,6 +34,6 @@ Cuenta B
 ~~~
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUzNzIzNjUxLDE5MTQ1NTYxODMsMTExND
-c4MjY2Nl19
+eyJoaXN0b3J5IjpbMTc5MzI3Nzk0Niw1NTM3MjM2NTEsMTkxND
+U1NjE4MywxMTE0NzgyNjY2XX0=
 -->
