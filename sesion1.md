@@ -20,7 +20,9 @@
 ## Polices 
 A policy is a JSON document that fully defines a set of permissions to access and manipulate AWS resources. Policy documents contain one or more permissions, with each permissions defining:
 
-- 
+- *Effect*: Allow / Deny
+- *Service*: 
+- *Resource*
 
 [https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html)
 
@@ -54,6 +56,6 @@ Cuenta B
 ~~~
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzE3Njc5NTMsLTE1NzA2MjExNzksNT
-UzNzIzNjUxLDE5MTQ1NTYxODMsMTExNDc4MjY2Nl19
+eyJoaXN0b3J5IjpbMTE3NjQxNjQ3NywtMTU3MDYyMTE3OSw1NT
+M3MjM2NTEsMTkxNDU1NjE4MywxMTE0NzgyNjY2XX0=
 -->
