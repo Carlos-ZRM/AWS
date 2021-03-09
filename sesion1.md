@@ -10,9 +10,26 @@ Cuenta A
 - Obtener ARN
 Cuenta B 
 - Crear grupo
-- Asignar politica
+- Asumir politica
+~~~JSON
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1615264585000",
+      "Effect": "Allow",
+      "Action": [
+        "sts:AssumeRole"
+      ],
+      "Resource": [
+        "arn:aws:iam::xxxxxxxx:role/ReadEc2ExternalRole"
+      ]
+    }
+  ]
+}
+~~~
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzOTE3MDU3MCwxOTE0NTU2MTgzLDExMT
-Q3ODI2NjZdfQ==
+eyJoaXN0b3J5IjpbNTUzNzIzNjUxLDE5MTQ1NTYxODMsMTExND
+c4MjY2Nl19
 -->
