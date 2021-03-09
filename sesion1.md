@@ -18,7 +18,9 @@
 - 3.  When a process operates under an assumed role, the temporary security token provides an access key for authentication. In addition to the access key (remember that it consists of two parts), the token also includes a session token. Calls to AWS must include both the two-part access key and the session token to authenticate.
 
 ## Polices 
-A policy is a JSON document that fully 
+A policy is a JSON document that fully defines a set of permissions to access and manipulate AWS resources. Policy documents contain one or more permissions, with each permissions defining:
+
+- 
 
 [https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html)
 
@@ -52,6 +54,6 @@ Cuenta B
 ~~~
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDg2ODM0MSwtMTU3MDYyMTE3OSw1NT
-M3MjM2NTEsMTkxNDU1NjE4MywxMTE0NzgyNjY2XX0=
+eyJoaXN0b3J5IjpbLTE3MzE3Njc5NTMsLTE1NzA2MjExNzksNT
+UzNzIzNjUxLDE5MTQ1NTYxODMsMTExNDc4MjY2Nl19
 -->
