@@ -23,7 +23,8 @@ A policy is a JSON document that fully defines a set of permissions to access an
 - *Effect*: Allow / Deny
 - *Service*: 
 - *Resource* ARN ** arn:aws:service:region:account-id:[resourcetype:]resource **
-- Action: Set and subset specific services actions.  
+- Action: Set and subset specific services actions. 
+- Condition: (Optionally) 
 
 [https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html)
 
@@ -57,7 +58,7 @@ Cuenta B
 ~~~
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQwMDAzNjUxLC0zOTY4OTA4NTQsMTE3Nj
-QxNjQ3NywtMTU3MDYyMTE3OSw1NTM3MjM2NTEsMTkxNDU1NjE4
-MywxMTE0NzgyNjY2XX0=
+eyJoaXN0b3J5IjpbLTIwMTEyMjQwMjUsLTM5Njg5MDg1NCwxMT
+c2NDE2NDc3LC0xNTcwNjIxMTc5LDU1MzcyMzY1MSwxOTE0NTU2
+MTgzLDExMTQ3ODI2NjZdfQ==
 -->
