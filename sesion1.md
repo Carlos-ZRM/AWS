@@ -3,7 +3,8 @@
 | Use Case |Technology Solutions |
 |------------|-------------------|
 |Operating System Access | Active Directory LDAP Machine-specific accounts |
-|Application Access |  - Active Directory Application User Repositories Amazon Cognito AWS Resources IAM
+|Application Access | Active Directory, Application User Repositories, Amazon Cognito | 
+| AWS Resources | IAM |
 
 [https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html)
 
@@ -37,6 +38,6 @@ Cuenta B
 ~~~
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNzE0OTIwNCw1NTM3MjM2NTEsMTkxND
-U1NjE4MywxMTE0NzgyNjY2XX0=
+eyJoaXN0b3J5IjpbNzUwODE5NjI1LDU1MzcyMzY1MSwxOTE0NT
+U2MTgzLDExMTQ3ODI2NjZdfQ==
 -->
