@@ -6,7 +6,11 @@
 |Application Access | Active Directory, Application User Repositories, Amazon Cognito | 
 | AWS Resources | IAM |
 
+Authentication
 
+- There are three ways that IAM authenticates
+-  Username/Password
+-  Acces key : ( acces)
 
 [https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html)
 
@@ -40,6 +44,6 @@ Cuenta B
 ~~~
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzA2MjExNzksNTUzNzIzNjUxLDE5MT
-Q1NTYxODMsMTExNDc4MjY2Nl19
+eyJoaXN0b3J5IjpbLTYzNjM5MDkyMiwtMTU3MDYyMTE3OSw1NT
+M3MjM2NTEsMTkxNDU1NjE4MywxMTE0NzgyNjY2XX0=
 -->
