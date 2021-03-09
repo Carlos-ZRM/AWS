@@ -33,7 +33,12 @@ A policy is a JSON document that fully defines a set of permissions to access an
 	   "Sid": "Stmt1441716043000",
 	    "Effect": "Allow", <- This policy grants access 
 	    "Action": [ <- Allows identities to list 
-		    "s3:GetObject", <- and get objects in "s3:ListBucket" <- the S3 bucket ], "Condition": { "IpAddress": { <- Only from a specific "aws:SourceIp": "192.168.0.1" <- IP Address } }, "Resource": [ "arn:aws:s3:::my_public_bucket/*" <- Only this bucket ] } ] }
+		    "s3:GetObject", <- and get objects in
+		     s3:ListBucket" <- the S3 bucket 
+				   ],
+		"Condition": {
+			 "IpAddress": { 	<- Only from a specific 
+				 "aws:SourceIp": "192.168.0.1" <- IP Address } }, "Resource": [ "arn:aws:s3:::my_public_bucket/*" <- Only this bucket ] } ] }
 ~~~
 [https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html)
 
@@ -67,7 +72,7 @@ Cuenta B
 ~~~
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkyNTY3NzMzLC0zOTY4OTA4NTQsMTE3Nj
-QxNjQ3NywtMTU3MDYyMTE3OSw1NTM3MjM2NTEsMTkxNDU1NjE4
-MywxMTE0NzgyNjY2XX0=
+eyJoaXN0b3J5IjpbLTMyNTQwNDMwNywtMzk2ODkwODU0LDExNz
+Y0MTY0NzcsLTE1NzA2MjExNzksNTUzNzIzNjUxLDE5MTQ1NTYx
+ODMsMTExNDc4MjY2Nl19
 -->
