@@ -10,7 +10,10 @@ Authentication
 
 - There are three ways that IAM authenticates
 -  Username/Password
--  Acces key : ( acces)
+-  Acces key : ( access_key_id : acces_secret_key)
+	- Olvide Nombre
+	-  API-
+	
 
 [https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html)
 
@@ -44,6 +47,6 @@ Cuenta B
 ~~~
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNjM5MDkyMiwtMTU3MDYyMTE3OSw1NT
+eyJoaXN0b3J5IjpbLTI4OTQ0Mzc5NiwtMTU3MDYyMTE3OSw1NT
 M3MjM2NTEsMTkxNDU1NjE4MywxMTE0NzgyNjY2XX0=
 -->
