@@ -9,12 +9,13 @@
 Authentication
 
 - There are three ways that IAM authenticates
--  Username/Password
--  Acces key : ( access_key_id : acces_secret_key)
+-  1. Username/Password
+-  2. Acces key : ( access_key_id : acces_secret_key)
 	- Olvide Nombre
 	-  API-REST ( services call with aws)
 	-  AWS SDK 
 	- AWS CLI
+- 3.  When a process operates under an assumed role, the temporary security token provides an access key for authentication. In addition to the access key (remember that it consists of two parts), the token also includes a session token. Calls to AWS must include both the two-part access key and the session token to authenticate.
 
 	
 
@@ -50,6 +51,6 @@ Cuenta B
 ~~~
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NTkwMjk3MiwtMTU3MDYyMTE3OSw1NT
-M3MjM2NTEsMTkxNDU1NjE4MywxMTE0NzgyNjY2XX0=
+eyJoaXN0b3J5IjpbNjk4NjY5MzYyLC0xNTcwNjIxMTc5LDU1Mz
+cyMzY1MSwxOTE0NTU2MTgzLDExMTQ3ODI2NjZdfQ==
 -->
