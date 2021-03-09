@@ -6,7 +6,7 @@
 |Application Access | Active Directory, Application User Repositories, Amazon Cognito | 
 | AWS Resources | IAM |
 
-Authentication
+##  Authentication
 
 - There are three ways that IAM authenticates
 -  1. Username/Password
@@ -17,7 +17,8 @@ Authentication
 	- AWS CLI
 - 3.  When a process operates under an assumed role, the temporary security token provides an access key for authentication. In addition to the access key (remember that it consists of two parts), the token also includes a session token. Calls to AWS must include both the two-part access key and the session token to authenticate.
 
-	
+## Polices 
+
 
 [https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html)
 
@@ -51,6 +52,6 @@ Cuenta B
 ~~~
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk4NjY5MzYyLC0xNTcwNjIxMTc5LDU1Mz
-cyMzY1MSwxOTE0NTU2MTgzLDExMTQ3ODI2NjZdfQ==
+eyJoaXN0b3J5IjpbLTE1NzY5NzEwMjEsLTE1NzA2MjExNzksNT
+UzNzIzNjUxLDE5MTQ1NTYxODMsMTExNDc4MjY2Nl19
 -->
