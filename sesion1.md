@@ -7,9 +7,9 @@ Crear una pólitica de lectura de EC2  En la cuenta A y que será compartida con
 Cuenta A
 - Crear politica  
 - Crear role y asignar politica
-- 
+- Obtener ARN
 Cuenta B 
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTQxNTkxNjksMTExNDc4MjY2Nl19
+eyJoaXN0b3J5IjpbMTkxNDU1NjE4MywxMTE0NzgyNjY2XX0=
 -->
