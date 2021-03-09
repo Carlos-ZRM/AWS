@@ -43,8 +43,12 @@ A policy is a JSON document that fully defines a set of permissions to access an
 			}, 
 		"Resource": [
 			"arn:aws:s3:::my_public_bucket/*" <- Only this bucket 
-			] } ] }
+			] 
+		} 
+	]
+}
 ~~~
+
 [https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html)
 
 # Práctica: Compartir permisos a tráves de cuentas AWS
@@ -77,7 +81,7 @@ Cuenta B
 ~~~
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNTg2MTcxOSwtMzk2ODkwODU0LDExNz
+eyJoaXN0b3J5IjpbMTQzMjIxNzk2OSwtMzk2ODkwODU0LDExNz
 Y0MTY0NzcsLTE1NzA2MjExNzksNTUzNzIzNjUxLDE5MTQ1NTYx
 ODMsMTExNDc4MjY2Nl19
 -->
