@@ -1,0 +1,101 @@
+---
+
+- name: Modify R53 records
+  hosts: localhost
+  connection: local
+  gather_facts: no
+  vars:
+    region: us-east-1
+    domain: domain-name
+    zone: prd.domain.com
+    id_instance: i-xxxxxxxx
+    public_ipv4:
+    public_ipv6:
+    private_ipv4:
+
+  vars_files:
+    - ../vault/aws-prd.yml
+  
+  tasks:
+    - name: Get facts if id_instance is not empty
+      community.aws.ec2_instance_info:
+        aws_access_key: "{{ aws_access_key }}"
+        aws_secret_key: "{{ aws_secret_key }}"
+        region: "{{ region }}"
+        instance_ids: "{{ id_instance }}"
+      when: id_instance is defined and id_instance != ""
+      register: instace_fact
+      tags:
+        - from_ec2
+
+    - name: print info IPV4, Ipv6
+      debug:
+        msg:
+          - "Public ipv4 {{ instace_fact['instances'][0]['network_interfaces'][0]['association']['public_ip'] }}"
+          - "Public ipv6 {{ instace_fact['instances'][0]['network_interfaces'][0]['private_ip_address'] }}"
+          - "Private ipv4 {{ instace_fact['instances'][0]['network_interfaces'][0]['ipv6_addresses'][0]['ipv6_address'] }}"
+      tags:
+        - from_ec2
+
+    - name: Set Ips facts
+      set_fact:
+        public_ipv4: "{{ instace_fact['instances'][0]['network_interfaces'][0]['association']['public_ip'] }}"
+        private_ipv4: "{{ instace_fact['instances'][0]['network_interfaces'][0]['private_ip_address'] }}"
+        public_ipv6: "{{ instace_fact['instances'][0]['network_interfaces'][0]['ipv6_addresses'][0]['ipv6_address'] }}"
+      when: id_instance is defined and id_instance != ""
+      tags:
+        - from_ec2
+
+    - name: Public IPV4
+      community.aws.route53:
+        aws_access_key: "{{ aws_access_key }}"
+        aws_secret_key: "{{ aws_secret_key }}"
+        state: present
+        overwrite: yes
+        zone: "{{ zone }}"
+        record: "{{ domain }}.{{ zone }}"
+        type: A
+        ttl: 60
+        value: "{{ public_ipv4 }}"
+        private_zone: no
+        wait: yes
+      when: public_ipv4 is defined and public_ipv4 != ""
+      tags:
+        - public
+        - from_ec2
+
+    - name: Public IPV6
+      community.aws.route53:
+        aws_access_key: "{{ aws_access_key }}"
+        aws_secret_key: "{{ aws_secret_key }}"
+        state: present
+        overwrite: yes
+        zone: "{{ zone }}"
+        record: "{{ domain }}.{{ zone }}"
+        type: AAAA
+        ttl: 60
+        value: "{{ public_ipv6 }}"
+        private_zone: no
+        wait: yes
+      when: public_ipv6 is defined and public_ipv6 != ""
+      tags:
+        - public
+        - from_ec2
+    
+    - name: Private IPv4
+      community.aws.route53:
+        aws_access_key: "{{ aws_access_key }}"
+        aws_secret_key: "{{ aws_secret_key }}"
+        state: present
+        overwrite: yes
+        zone: "{{ zone }}"
+        record: "{{ domain }}.{{ zone }}"
+        type: A
+        ttl: 60
+        value: "{{ private_ipv4 }}"
+        private_zone: yes
+        wait: yes
+      when: private_ipv4 is defined and private_ipv4 != ""
+      tags:
+        - private
+        - from_ec2
