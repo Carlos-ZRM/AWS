@@ -8,7 +8,7 @@
     region: us-east-1
     domain: ctl-gravitron
     zone: prd.zequenze.com
-    id_instance: i-0dc83a6c75cbe9207
+    id_instance: i-xxxxxxxx
     public_ipv4:
     public_ipv6:
     private_ipv4:
