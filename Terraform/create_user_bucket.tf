@@ -4,7 +4,7 @@
 locals {
   region = "us-east-1"
   s3_user = "s3_bucket_user_dev"
-  s3_name = "zqz-buecket_name-dev"
+  s3_name = "buecket_name-dev"
   profile = "default"
 
   # Common tags to be assigned to all resources
