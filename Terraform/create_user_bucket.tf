@@ -1,16 +1,38 @@
 # variable platform
 # variable user name
 # variable bucket name
+locals {
+  region = "us-east-1"
+  s3_user = "s3_bucket_user_dev"
+  s3_name = "zqz-buecket_name-dev"
+  profile = "default"
+
+  # Common tags to be assigned to all resources
+  tags = {
+    Platform = "common"
+  }
+}
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 3.0"
+    }
+  }
+}
+
+# Configure the AWS Provider
+provider "aws" {
+  region = local.region
+  profile = local.profile
+}
+
 
 resource "aws_iam_user" "s3_user" {
   # Variable nombre de usuario
-  name = "loadbalancer"
+  name = local.s3_user
   path = "/"
-
-  tags = {
-    # variable platform
-    Platform = ""
-  }
+  tags = local.tags
 }
 
 resource "aws_iam_access_key" "s3_user" {
@@ -19,12 +41,9 @@ resource "aws_iam_access_key" "s3_user" {
 
 resource "aws_s3_bucket" "s3_bucket" {
   # variable bucket name
-  bucket = "bucket_name"
+  bucket = local.s3_name
   acl    = "private"
-  tags = {
-    # variable platform
-    Platform = ""
-  }
+  tags = local.tags
 }
 
 
